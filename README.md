@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 Clone the repository to your local machine.
 Install the necessary dependencies using npm install.
-Start the development server with npm start.
+Start the development server with npm run dev.
 Begin exploring and contributing to the project!
 
 ## Contributing
