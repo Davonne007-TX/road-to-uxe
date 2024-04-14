@@ -1,0 +1,20 @@
+import Header from "./Header";
+
+export default function Cola() {
+  return (
+    <>
+      <main className="bg-gray-200">
+        <section>
+          <Header />
+        </section>
+        <section className="flex justify-center items-center">
+          <img
+            src="/images/coke.jpg"
+            className="max-w-2xl mt-20 lg:max-w-5xl rounded-3xl"
+            alt="Coca-Cola in a can, "
+          />
+        </section>
+      </main>
+    </>
+  );
+}
