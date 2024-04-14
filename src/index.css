@@ -23,9 +23,9 @@
   cursor: pointer;
 }
 
-a {
+/* a {
   @apply text-sky font-bold;
-}
+} */
 
 .journey-bts {
   @apply bg-gray-300 p-2 font-serif rounded hover:border-2 border-white;
