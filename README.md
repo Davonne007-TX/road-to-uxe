@@ -4,9 +4,11 @@ Welcome to Road to UXE! This project is a journey focused on deepening my skills
 
 ## Tech Used
 
-React.js: A JavaScript library for building user interfaces, enabling the creation of dynamic and interactive web applications.
-Tailwind CSS: A utility-first CSS framework that provides pre-designed components and utility classes, facilitating rapid and flexible styling of web interfaces.
-React Router: A library for declaratively managing navigation and routing in React applications, allowing for the creation of single-page applications with multiple views.
+- React.js: A JavaScript library for building user interfaces, enabling the creation of dynamic and interactive web applications.
+
+- Tailwind CSS: A utility-first CSS framework that provides pre-designed components and utility classes, facilitating rapid and flexible styling of web interfaces.
+
+- React Router: A library for declaratively managing navigation and routing in React applications, allowing for the creation of single-page applications with multiple views.
 
 ## Getting Started
 
