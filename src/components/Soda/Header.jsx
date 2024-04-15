@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="flex flex-row gap-40 text-black mt-2 font-thin bg-white p-4">
-      <h1 className="text-4xl ml-20 lg:ml-80 font-ber">Coca-Kola</h1>
+      <h1 className="text-4xl ml-20 lg:ml-80 font-ber">Coke-o-Cola</h1>
       <ul className="flex flex-row gap-20 lg:gap-32">
         {navLinks.map((link, index) => (
           <li
