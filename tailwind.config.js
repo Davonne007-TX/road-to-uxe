@@ -20,6 +20,7 @@ export default {
         rak: "'Rakkas', sans-serif",
         orbitron: "'Orbitron', sans-serif",
         ram: "'Rampart One', sans-serif",
+        ber: "'Berkshire Swash', serif",
       },
     },
   },
