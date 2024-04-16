@@ -7,7 +7,7 @@ export default function SodaCan({ src, title, text }) {
           className="rounded-t-2xl max-w-xs md:max-w-2xl lg:max-w-sm"
         />
         <section className="flex flex-col gap-4 mt-4 p-4">
-          <h2>{title}</h2>
+          <h2 className="font-bold font-serif text-xl">{title}</h2>
           <p>{text}</p>
         </section>
       </section>

@@ -3,7 +3,7 @@ import SodaCard from "./SodaCard";
 export default function UpcomingNews() {
   return (
     <>
-      <section className="mt-10 p-20">
+      <main className="mt-10 p-20">
         <h2 className="text-center text-3xl p-8 font-bold font-serif">
           Upcoming News
         </h2>
@@ -27,7 +27,7 @@ export default function UpcomingNews() {
             text="Sit amet dictum sit amet justo donec enim diam. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet mauris commodo quis imperdiet. Enim diam vulputate ut pharetra sit amet aliquam id."
           />
         </section>
-      </section>
+      </main>
     </>
   );
 }
