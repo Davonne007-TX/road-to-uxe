@@ -21,4 +21,4 @@ Begin exploring and contributing to the project!
 
 ## Contributing
 
-Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request.
+Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request. There is also a project board under Projects within the repository.
