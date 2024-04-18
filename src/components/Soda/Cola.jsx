@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Climate from "./Climate";
 import UpcomingNews from "./UpcomingNews";
 
 export default function Cola() {
@@ -16,6 +17,7 @@ export default function Cola() {
           />
         </section>
 
+        <Climate />
         <UpcomingNews />
       </main>
     </>
