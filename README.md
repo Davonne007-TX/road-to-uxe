@@ -1,6 +1,6 @@
 # Road to UXE!
 
-Welcome to Road to UXE! This project is my journey focusing on deepening my skills as a Frontend Web Developer, while also expanding my knowledge of UI/UX design. I am building UI that focuses on user satisfaction, usability, and accessibility.
+Welcome to Road to UXE! This project is my journey focusing on deepening my skills as a Frontend Web Developer, while also expanding my knowledge of UI/UX design. I am building UI that focuses on user experience, usability, and accessibility.
 
 ## Tech Used
 
