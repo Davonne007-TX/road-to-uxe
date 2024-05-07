@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-col justify-center items-center min-h-screen bg-peach">
-        <section className="flex flex-col justify-center items-center mt-20 mb-20 max-w-3xl lg:max-w-4xl rounded-2xl p-8 bg-neutral-100">
-          <h1 className=" text-5xl lg:text-7xl font-rak flex flex-col text-teal justify-center items-center">
+        <section className="flex flex-col justify-center items-center mt-20 mb-20 max-w-3xl lg:max-w-7xl rounded-2xl p-8 bg-neutral-100">
+          <h1 className=" text-5xl lg:text-6xl font-rak flex flex-col text-teal justify-center items-center">
             Davonne J. Vigil
           </h1>
           <section className="flex flex-col justify-center items-center m-auto max-w-4xl  gap-8 text-balance  text-xl mt-8 font-serif p-4 text-teal">
@@ -19,9 +19,9 @@ export default function Home() {
             </p>
 
             <img
-              src="/images/setup.png"
-              alt="Photo By: Patty Slongo, Lummi"
-              className="max-w-lg p-8"
+              src="/images/mySetup.jpeg"
+              alt="My Desktop Setup with Rubiks Cube and Cobra Duck"
+              className="max-w-lg p-8 rounded-2xl"
             />
             <p>
               Being a Frontend Developer, I am drawn to the design process and
