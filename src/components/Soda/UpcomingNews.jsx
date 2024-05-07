@@ -14,6 +14,7 @@ export default function UpcomingNews() {
             title="Business Strategy 2024"
             text="Sit amet dictum sit amet justo donec enim diam. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet mauris commodo quis imperdiet. Enim diam vulputate ut pharetra sit amet aliquam id."
           />
+
           <SodaCard
             src="/images/cola.jpg"
             alt="Laptop and Coke, Image from Unsplash, Ylann Meyer"
