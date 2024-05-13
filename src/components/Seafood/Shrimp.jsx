@@ -1,7 +1,14 @@
 export default function Shrimp() {
   return (
-    <main>
-      <h1>Prongs</h1>
+    <main className="bg-[url('/images/prongs.jpg')] bg-cover h-screen">
+      <section className="flex flex-col justify-center items-center h-screen text-white gap-4">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-rak">
+          All You Can Eat
+        </h1>
+        <p className="text-md md:text-2xl lg:text-4xl font-serif">
+          From shrimp, lobster, to scallops, all you can eat seafood for $11.99!
+        </p>
+      </section>
     </main>
   );
 }
