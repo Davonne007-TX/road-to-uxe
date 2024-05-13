@@ -10,6 +10,11 @@ export default function MyWork() {
     { id: 6, text: "Storm Chasers", link: "/chasing" },
     { id: 7, text: "Easter", link: "/search" },
     { id: 8, text: "Coca Cola", link: "/cola" },
+    {
+      id: 9,
+      text: "Restaurant",
+      link: "/seafood",
+    },
   ];
 
   return (

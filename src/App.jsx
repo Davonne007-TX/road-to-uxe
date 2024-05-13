@@ -8,7 +8,7 @@ import Next from "./components/LinkedIn/Next";
 import BlackPanther from "./components/240/BlackPanther";
 import Like from "./components/Peace/Like";
 import Chasing from "./components/Storm/Chasing";
-import XLogin from "./components/X/XLogin";
+import Shrimp from "./components/Seafood/Shrimp";
 import Search from "./components/Journey/Search";
 import Bunny from "./components/Easter/Bunny";
 import Cola from "./components/Soda/Cola";
@@ -25,7 +25,7 @@ function App() {
         <Route path="/blackPanther" element={<BlackPanther />} />
         <Route path="/like" element={<Like />} />
         <Route path="/chasing" element={<Chasing />} />
-        <Route path="/login" element={<XLogin />} />
+        <Route path="/seafood" element={<Shrimp />} />
         <Route path="/search" element={<Search />} />
         <Route path="/easter" element={<Bunny />} />
         <Route path="/cola" element={<Cola />} />
