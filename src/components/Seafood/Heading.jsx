@@ -8,12 +8,14 @@ export default function Heading() {
   return (
     <>
       <header className="flex flex-row justify-between items-center gap-40 absolute mt-10 text-white">
-        <h1 className="text-8xl ml-20 font-rak">Prongs</h1>
+        <h1 className="text-7xl lg:text-8xl ml-20 font-rak">Prawns</h1>
 
         <nav>
           <ul className="flex flex-row items-center text-2xl mt-10 gap-20">
             {links.map((link, index) => (
-              <li key={index}>{link.name}</li>
+              <li key={index} className="hover:underline cursor-pointer">
+                {link.name}
+              </li>
             ))}
           </ul>
         </nav>
