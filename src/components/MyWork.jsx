@@ -8,13 +8,10 @@ export default function MyWork() {
     { id: 4, text: "240sx Nissan", link: "/blackPanther" },
     { id: 5, text: "Peace and Love", link: "/like" },
     { id: 6, text: "Storm Chasers", link: "/chasing" },
-    { id: 7, text: "Easter", link: "/search" },
-    { id: 8, text: "Coca Cola", link: "/cola" },
-    {
-      id: 9,
-      text: "Restaurant",
-      link: "/seafood",
-    },
+    { id: 7, text: "Journey Search", link: "/search" },
+    { id: 8, text: "Easter", link: "/easter" },
+    { id: 9, text: "Coca Cola", link: "/cola" },
+    { id: 10, text: "Restaurant", link: "/seafood" },
   ];
 
   return (

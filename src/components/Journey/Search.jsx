@@ -23,7 +23,7 @@ export default function Search() {
         </section>
 
         <section className="flex gap-8">
-          <Button label="Eclipse 2024" className="journey-bts" />
+          <Button label="Solar Storm 2024" className="journey-bts" />
           <Button label="I'm feeling motivated" className="journey-bts" />
         </section>
       </main>
