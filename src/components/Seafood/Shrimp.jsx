@@ -11,11 +11,11 @@ export default function Shrimp() {
       <section className="flex flex-col justify-center items-center h-screen text-white gap-4">
         <AllYouCanEat />
 
-        <section className="flex gap-4 ">
+        <section className="flex gap-4 mt-4 ">
           <Search
             type="search"
             placeholder="Search by city or zip code"
-            className="w-full p-2 "
+            className="w-full p-2"
           />
           <Button
             label="Start Reserving"
