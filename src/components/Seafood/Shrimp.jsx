@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import AllYouCanEat from "./AllYouCanEat";
 import Search from "./Search";
 import Button from "../Button";
 
@@ -8,16 +9,8 @@ export default function Shrimp() {
       <Heading />
 
       <section className="flex flex-col justify-center items-center h-screen text-white gap-4">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-rak">
-          All You Can Eat
-        </h2>
-        <p className="text-md md:text-2xl lg:text-3xl">
-          From shrimp, lobster, to scallops, all you can eat seafood for $11.99
-        </p>
-        <p className="text-md md:text-2xl lg:text-3xl">
-          {" "}
-          Reserve your seating today!
-        </p>
+        <AllYouCanEat />
+
         <section className="flex gap-4 ">
           <Search
             type="search"
