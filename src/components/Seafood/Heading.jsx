@@ -13,10 +13,8 @@ export default function Heading() {
         <nav>
           <ul className="flex flex-row items-center text-2xl mt-10 gap-20">
             {links.map((link, index) => (
-              <a>
-                <li key={index} className="hover:underline cursor-pointer">
-                  {link.name}
-                </li>
+              <a key={index}>
+                <li className="hover:underline cursor-pointer">{link.name}</li>
               </a>
             ))}
           </ul>

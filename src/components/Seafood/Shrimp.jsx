@@ -22,11 +22,11 @@ export default function Shrimp() {
           <Search
             type="search"
             placeholder="Search by city or zip code"
-            className="w-full p-2"
+            className="w-full p-2 "
           />
           <Button
-            label="Use my local location"
-            className="bg-orange-500 p-2 rounded-full text-lg hover:text-black"
+            label="Start Reserving"
+            className="bg-orange-500 p-2 rounded-md text-md w-60 hover:text-black"
           />
         </section>
       </section>
