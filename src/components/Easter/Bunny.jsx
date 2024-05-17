@@ -20,14 +20,19 @@ export default function Bunny() {
             <nav>
               <ul className="flex flex-row gap-10 ml-10 lg:ml-20 lg:mt-4 text-lg cursor-pointer">
                 {navigationList.map((navigation, index) => (
-                  <li key={index}>{navigation.name}</li> 
+                  <li key={index}>{navigation.name}</li>
                 ))}
               </ul>
             </nav>
           </div>
         </header>
         <SecondHeading />
-        <Easter />
+        <Easter
+          title="Easter Egg Hunt Friday March 29th"
+          src="/images/hunt.jpg"
+          alt="Children with Eater Egg Baskets and Easter Eggs"
+          text="Consectetur purus ut faucibus pulvinar elementum integer enim. Pellentesque dignissim enim sit amet venenatis urna cursus. Fermentum et sollicitudin ac orci phasellus. Sem et tortor consequat id porta nibh venenatis cras. Id interdum velit laoreet id donec ultrices."
+        />
       </main>
     </>
   );
