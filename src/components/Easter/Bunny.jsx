@@ -12,13 +12,13 @@ export default function Bunny() {
     <>
       <main className="bg-white h-screen">
         <header className="bg-pink-200 p-2">
-          <section className="flex flex-col lg:flex-row mt-4 font-serif">
+          <section className="flex flex-row justify-between mt-4 font-serif">
             <h1 className=" text-3xl lg:text-5xl ml-4 cursor-pointer">
               Lincoln Elementary
             </h1>
 
             <nav>
-              <ul className="flex flex-row gap-10 ml-10 lg:ml-20 lg:mt-4 text-lg cursor-pointer">
+              <ul className="flex flex-col md:flex-row lg:flex-row  gap-10 ml-10 lg:ml-20 lg:mt-4 text-lg cursor-pointer">
                 {navigationList.map((navigation, index) => (
                   <li key={index}>{navigation.name}</li>
                 ))}
