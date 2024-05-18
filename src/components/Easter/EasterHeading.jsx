@@ -16,8 +16,8 @@ export default function EasterHeading() {
           <nav>
             <ul className="flex flex-col md:flex-row lg:flex-row gap-10 mr-4 lg:ml-20 lg:mt-4 text-lg cursor-pointer">
               {navigationList.map((navigation, index) => (
-                <a href="">
-                  <li key={index}>{navigation.name}</li>
+                <a href="" key={index}>
+                  <li>{navigation.name}</li>
                 </a>
               ))}
             </ul>
