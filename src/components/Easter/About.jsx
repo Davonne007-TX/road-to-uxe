@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <main className="flex justify-center items-center m-0 mb-10">
-      <section className="flex flex-col lg:flex-row justify-center items-center mt-20 m-0 md:max-w-xl lg:max-w-6xl">
+      <section className="flex flex-col lg:flex-row justify-center items-center mt-20 m-0 max-w-xs md:max-w-xl lg:max-w-6xl">
         <img
           src="/images/teach.jpg"
-          className="max-w-2xl lg:max-w-lg lg:mr-8 mb-4 lg:mb-0"
+          className="md:max-w-2xl lg:max-w-lg lg:mr-8 mb-4 lg:mb-0"
         />
         <section className="flex flex-col justify-center items-center mt-4">
           <h2 className="text-2xl font-semibold mb-4">
