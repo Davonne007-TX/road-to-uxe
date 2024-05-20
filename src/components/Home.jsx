@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-col justify-center items-center bg-[url('/images/road.jpg')] bg-cover min-h-screen">
-        <section>
-          <h1 className="text-3xl md:text-6xl lg:text-7xl text-white font-ram">
+        <section className="flex-time">
+          <h1 className="mt-10 md:mt-0 lg:mt-0 text-3xl md:text-6xl lg:text-7xl text-white font-ram">
             Road To UXE
           </h1>
           <p className="mt-5 text-teal text-2xl font-serif">
