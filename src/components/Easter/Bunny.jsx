@@ -1,5 +1,6 @@
 import EasterHeading from "./EasterHeading";
 import SecondHeading from "./SecondHeading";
+import Hero from "./Hero";
 import About from "./About";
 import Easter from "./Easter";
 
@@ -9,6 +10,7 @@ export default function Bunny() {
       <main className="bg-white h-screen">
         <EasterHeading />
         <SecondHeading />
+        <Hero />
         <About />
         <section className="flex flex-col mb-10">
           <Easter

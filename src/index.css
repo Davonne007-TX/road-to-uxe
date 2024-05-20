@@ -31,3 +31,8 @@
   @apply bg-gray-300 p-2 font-serif rounded hover:border-2 border-white;
 }
 /* Photo by Efekan Akyüz on Unsplash */
+
+/*Easter Project, time to get more serious*/
+.flex-time {
+  @apply flex flex-col justify-center items-center m-0;
+}

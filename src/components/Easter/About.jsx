@@ -4,10 +4,10 @@ export default function About() {
       <section className="flex flex-col lg:flex-row justify-center items-center mt-20 m-0 max-w-xs md:max-w-xl lg:max-w-6xl">
         <img
           src="/images/teach.jpg"
-          className="md:max-w-2xl lg:max-w-lg lg:mr-8 mb-4 lg:mb-0"
+          className="md:max-w-2xl lg:max-w-xl lg:mr-8 mb-4 lg:mb-0"
         />
         <section className="flex flex-col justify-center items-center mt-4">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-3xl font-semibold mb-4">
             Welcome to Lincoln Elementary!
           </h2>
           <p className="mb-4 text-lg">
