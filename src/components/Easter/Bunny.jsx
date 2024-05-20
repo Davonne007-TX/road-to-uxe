@@ -1,12 +1,15 @@
 import EasterHeading from "./EasterHeading";
 import SecondHeading from "./SecondHeading";
+import About from "./About";
 import Easter from "./Easter";
+
 export default function Bunny() {
   return (
     <>
       <main className="bg-white h-screen">
         <EasterHeading />
         <SecondHeading />
+        <About />
         <section className="flex flex-col mb-10">
           <Easter
             title="Easter Egg Hunt Friday March 29th"
