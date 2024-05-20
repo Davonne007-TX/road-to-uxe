@@ -22,7 +22,7 @@ export default function TopHeader() {
         >
           Black Panther Lux.
         </h1>
-        <ul className="text-white flex lg:flex-row gap-6 text-2xl mt-4">
+        <ul className="text-white hidden lg:flex lg:flex-row gap-6 text-2xl mt-4">
           {links.map((link, index) => (
             <li key={index} className="hover">
               {link.name}
@@ -30,14 +30,14 @@ export default function TopHeader() {
           ))}
         </ul>
 
-        <div className="mt-4 flex gap-10 text-2xl ">
+        <section className="mt-4 gap-10 text-2xl hidden lg:flex">
           <Link to="" className="hover">
             Contact
           </Link>
           <Link to="" className="hover">
             Locations
           </Link>
-        </div>
+        </section>
       </header>
     </>
   );
