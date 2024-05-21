@@ -8,10 +8,11 @@ export default function Home() {
           <h1 className="mt-10 md:mt-0 lg:mt-0 text-3xl md:text-6xl lg:text-7xl text-white font-ram">
             Road To UXE
           </h1>
-          {/* <p className="mt-5 text-teal text-2xl font-serif">
-            
-          </p> */}
-          <section className="flex flex-col justify-center items-center mt-20 mb-20 max-w-6xl lg:max-w-7xl p-8 bg-blue-200 bg-opacity-75 rounded-3xl">
+          <p className="mt-10 lg:mt-5 text-teal text-xl max-w-xs md:max-w-4xl lg:max-w-5xl font-serif">
+            Frontend Projects built in React.js and Tailwind CSS focusing on UI
+            design and user experience
+          </p>
+          <section className="flex flex-col justify-center items-center mt-10 lg:mt-20 mb-20 md:max-w-7xl lg:max-w-7xl p-8 bg-blue-200 bg-opacity-75 rounded-3xl">
             <MyWork />
           </section>
         </section>
