@@ -15,6 +15,7 @@ export default {
         neon: "#0FFF50",
         teal: "#003B4A",
         myBlue: "#3A61DE",
+        git: "#000000",
       },
       fontFamily: {
         rak: "'Rakkas', sans-serif",
