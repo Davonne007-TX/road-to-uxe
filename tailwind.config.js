@@ -16,6 +16,7 @@ export default {
         teal: "#003B4A",
         myBlue: "#3A61DE",
         git: "#000000",
+        myPink: "#CA8787",
       },
       fontFamily: {
         rak: "'Rakkas', sans-serif",
