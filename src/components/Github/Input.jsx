@@ -1,9 +1,9 @@
 export default function Input() {
   return (
-    <section className="relative mt-4 font-serif">
+    <section className="relative mt-4 mb-4 font-serif">
       <input
         placeholder="Search For Repository"
-        className="w-96 lg:w-80 h-auto p-2 bg-gray-300 rounded-2xl text-black outline-none"
+        className="w-72 md:w-96 lg:w-80 h-auto p-2 bg-gray-300 rounded-2xl text-black outline-none"
       />
       <button>
         <img

@@ -3,8 +3,8 @@ import SignIn from "./SignIn";
 
 export default function CodeHeader() {
   return (
-    <header className="flex flex-col md:flex-row lg:flex-row justify-between items-center text-white bg-blue-600">
-      <h1 className="font-ber text-4xl m-4 mt-10 md:mt-6 lg:mt-6">
+    <header className="flex flex-col md:flex-row lg:flex-row justify-between items-center text-white bg-blue-600 p-2">
+      <h1 className="font-ber text-4xl mt-4 md:mt-0 lg:mt-0 lg:ml-4">
         Code Together
       </h1>
       <nav className="hidden lg:flex flex-row gap-10 list-none mt-4 font-serif ml-20">

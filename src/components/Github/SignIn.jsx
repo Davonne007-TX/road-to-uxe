@@ -3,7 +3,7 @@ import Button from "../Button";
 export default function SignIn() {
   return (
     <>
-      <section className="mt-4 flex gap-4 mr-4 font-ber ">
+      <section className="mt-4 hidden md:flex lg:flex gap-4 mr-4 font-ber ">
         <Button label="Sign In" />
         <Button
           label="Sign Up"
