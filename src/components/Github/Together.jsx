@@ -7,7 +7,7 @@ export default function Together() {
         </h2>
         <p className="text-md text-center md:text-xl lg:text-2xl mt-2 p-2 md:p-0 lg:p-0">
           Developers working together to gain experience and build something{" "}
-          <div className="text-blue-500">awesome..!</div>
+          <span className="text-blue-500">awesome..!</span>
         </p>
       </section>
 
