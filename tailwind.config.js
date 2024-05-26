@@ -14,7 +14,7 @@ export default {
         peach: "#FFA1B0",
         neon: "#0FFF50",
         teal: "#003B4A",
-        myBlue: "#3A61DE",
+        myBlue: "#1F51FF",
         git: "#000000",
         myPink: "#CA8787",
       },

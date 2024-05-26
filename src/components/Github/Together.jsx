@@ -1,7 +1,7 @@
 export default function Together() {
   return (
     <>
-      <section className="text-white flex gap-8 justify-center items-center mt-40 text-6xl font-sanss">
+      <section className=" flex gap-2 lg:gap-8 text-myBlue font-serif justify-center items-center  mt-40 text-5xl lg:text-6xl font-sanss">
         <p>Build Together,</p>
         <p>Grow Together</p>
       </section>

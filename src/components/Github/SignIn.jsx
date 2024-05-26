@@ -7,7 +7,7 @@ export default function SignIn() {
         <Button label="Sign In" />
         <Button
           label="Sign Up"
-          className=" border-2 border-black p-2 rounded-xl hover:bg-black hover:bg-opacity-20"
+          className=" border-2 border-black p-2 rounded-xl hover:bg-gradient-to-r from-indigo-400 to-cyan-400"
         />
       </section>
     </>
