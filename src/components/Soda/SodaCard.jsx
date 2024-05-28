@@ -10,8 +10,10 @@ export default function SodaCan({ src, title, text, alt }) {
           alt={alt}
         />
         <section className="flex flex-col gap-4 mt-4 p-4">
-          <h2 className="font-bold font-serif text-3xl">{title}</h2>
-          <p className="text-xl">{text}</p>
+          <h2 className="font-bold font-serif text-xl md:text-3xl lg:text-3xl">
+            {title}
+          </h2>
+          <p className="text-md lg:text-xl">{text}</p>
           <LearnMore />
         </section>
       </section>

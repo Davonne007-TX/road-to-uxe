@@ -4,7 +4,7 @@ export default function UpcomingNews() {
   return (
     <>
       <main className="p-20">
-        <h2 className="text-center text-3xl p-8 font-bold font-serif">
+        <h2 className="text-center text-2xl lg:text-3xl p-8 font-bold font-serif">
           Upcoming News
         </h2>
         <section className="flex flex-col justify-center items-center m-auto lg:flex-row gap-8">

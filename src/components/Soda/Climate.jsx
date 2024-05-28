@@ -4,7 +4,7 @@ export default function Climate() {
   return (
     <>
       <section className="mt-10 flex flex-col justify-center items-center m-auto ">
-        <h2 className="text-center text-3xl p-8 font-bold font-serif">
+        <h2 className="text-center text-2xl md:text-3xl lg:text-3xl p-8 font-bold font-serif">
           Sustainability Efforts
         </h2>
         <section className="flex flex-col lg:flex-row gap-10">
