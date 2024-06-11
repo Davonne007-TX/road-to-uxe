@@ -13,6 +13,7 @@ import Shrimp from "./components/Seafood/Shrimp";
 import Bunny from "./components/Easter/Bunny";
 import Cola from "./components/Soda/Cola";
 import BuildToday from "./components/Github/BuildToday";
+import Future from "./components/240/AI/Future";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/easter" element={<Bunny />} />
         <Route path="/cola" element={<Cola />} />
         <Route path="/together" element={<BuildToday />} />
+        <Route path="/future" element={<Future />} />
       </Routes>
     </>
   );

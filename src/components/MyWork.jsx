@@ -13,6 +13,7 @@ export default function MyWork() {
     { id: 9, text: "Coca Cola", link: "/cola" },
     { id: 10, text: "Restaurant", link: "/seafood" },
     { id: 11, text: "Code Together", link: "/together" },
+    { id: 12, text: "AI", link: "/future" },
   ];
 
   return (
