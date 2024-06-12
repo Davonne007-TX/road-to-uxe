@@ -2,8 +2,8 @@ import AIButtons from "./AIButtons";
 
 export default function Now({ title, text }) {
   return (
-    <section className="flex-time mt-20 md:mt-20 lg:mt-40 text-white">
-      <section className="max-w-3xl flex flex-col gap-10 bg-black bg-opacity-40 p-8">
+    <section className="flex-time mt-20 md:mt-20 lg:mt-48 text-white">
+      <section className="max-w-3xl flex flex-col gap-10 bg-black bg-opacity-40 p-10 max-h-max">
         {" "}
         <h2 className="text-6xl font-ber">{title}</h2>
         <p className=" text-2xl">{text}</p>
