@@ -7,7 +7,7 @@ export default function Future() {
       <main className="bg-[url('/images/robot.jpg')] bg-cover h-screen">
         <FutureHeader />
         <Now
-          title="Pellentesque"
+          title="The Future is Here"
           text="Gravida in fermentum et sollicitudin ac orci phasellus. Convallis aenean et tortor at risus viverra. Nam aliquam sem et tortor consequat id porta nibh venenatis."
         />
       </main>

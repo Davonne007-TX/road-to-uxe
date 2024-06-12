@@ -8,7 +8,7 @@ export default function Now({ title, text }) {
         <h2 className="text-6xl font-ber">{title}</h2>
         <p className=" text-2xl">{text}</p>
         <AIButtons
-          text="Start Today"
+          text="Learn More"
           styles="bg-white text-black rounded-full text-2xl font-ber w-40 hover:bg-black hover:text-white hover:bg-opacity-60"
         />
       </section>

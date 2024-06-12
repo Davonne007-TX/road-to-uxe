@@ -2,14 +2,15 @@ import AIButtons from "./AIButtons";
 
 export default function FutureHeader() {
   const navItems = [
-    { name: "Volutpa" },
-    { name: "Posuere" },
-    { name: "Cursus" },
-    { name: "Augue" },
+    { name: "Past" },
+    { name: "Present" },
+    { name: "Future" },
+    { name: "Risks" },
+    { name: "Uncharted Territory" },
   ];
   return (
-    <header className="text-white flex justify-center items-center font-serif gap-10 lg:gap-20">
-      <h1 className="text-5xl mt-10 font-ber">Fermentum</h1>
+    <header className="text-white flex justify-center items-center md:gap-8 lg:gap-20 font-serif">
+      <h1 className="text-6xl mt-10 font-ber">AI</h1>
       {navItems.map((items, index) => (
         <li
           key={index}
@@ -20,9 +21,9 @@ export default function FutureHeader() {
       ))}
 
       <section className="mt-14 hidden md:flex lg:flex gap-4 text-lg font-ber">
-        <AIButtons text="Sign Up" />
+        <AIButtons text="News" />
         <AIButtons
-          text="Sign In"
+          text="Stay Updated"
           styles="bg-white text-black rounded-xl p-2 text-lg hover:bg-black hover:text-white hover:bg-opacity-60"
         />
       </section>
