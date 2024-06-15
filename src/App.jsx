@@ -13,7 +13,7 @@ import Shrimp from "./components/Seafood/Shrimp";
 import Bunny from "./components/Easter/Bunny";
 import Cola from "./components/Soda/Cola";
 import BuildToday from "./components/Github/BuildToday";
-import Future from "./components/240/AI/Future";
+import Future from "./components/AI/Future";
 
 function App() {
   return (
