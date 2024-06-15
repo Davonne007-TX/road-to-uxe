@@ -12,14 +12,8 @@ export default function Now({ title, text }) {
         <Cities />
         <p className="text-lg md:text-2xl lg:text-2xl -mt-4 ">{text}</p>
         <section className="flex gap-8">
-          <AIButtons
-            text="Learn More"
-            styles="bg-white text-black text-xl rounded-full text-2xl font-ber w-40 hover:bg-black hover:text-white hover:bg-opacity-60"
-          />
-          <AIButtons
-            text="AI Blog"
-            styles="bg-white text-black rounded-full text-xl md:text-2xl lg:text-2xl font-ber w-40 hover:bg-black hover:text-white hover:bg-opacity-60"
-          />
+          <AIButtons text="Learn More" styles="ai-buttons" />
+          <AIButtons text="AI Blog" styles="ai-buttons" />
         </section>
       </section>
     </main>

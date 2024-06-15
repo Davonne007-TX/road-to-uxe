@@ -43,3 +43,8 @@
 .flex-time {
   @apply flex flex-col justify-center items-center m-0;
 }
+
+/* AI buttons */
+.ai-buttons {
+  @apply bg-white text-black text-xl md:text-2xl lg:text-2xl rounded-full  font-ber w-40 hover:bg-black hover:text-white hover:bg-opacity-60;
+}
