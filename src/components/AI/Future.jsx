@@ -4,7 +4,7 @@ import Now from "./Now";
 export default function Future() {
   return (
     <>
-      <main className="bg-[url('/images/robot.jpg')] bg-cover h-screen">
+      <main className="bg-[url('/images/robot.jpg')] bg-cover min-h-screen">
         <FutureHeader />
         <Now
           title="The Future is Here"
@@ -14,3 +14,5 @@ export default function Future() {
     </>
   );
 }
+
+//
