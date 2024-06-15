@@ -10,7 +10,7 @@ export default function Now({ title, text }) {
           {title}
         </h2>
         <Cities />
-        <p className="text-lg md:text-2xl lg:text-2xl">{text}</p>
+        <p className="text-lg md:text-2xl lg:text-2xl -mt-4 ">{text}</p>
         <section className="flex gap-8">
           <AIButtons
             text="Learn More"
