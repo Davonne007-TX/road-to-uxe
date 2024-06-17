@@ -7,7 +7,9 @@ export default function Search() {
       <main className="flex flex-col justify-start items-center h-screen bg-purple-400">
         <Top />
         <section className="relative mt-60">
-          <h1 className="text-9xl text-white text-center p-10">Journey</h1>
+          <h1 className="text-7xl md:text-9xl lg:text-9xl text-white text-center p-8">
+            Journey
+          </h1>
           <input
             type="/search"
             className="w-full p-4 rounded outline-none"
