@@ -20,11 +20,11 @@ export default function FutureHeader() {
         </li>
       ))}
 
-      <section className="mt-14 hidden md:flex lg:flex gap-4 text-lg font-ber">
+      <section className="mt-14 hidden md:hidden lg:flex gap-4 text-lg font-ber">
         <AIButtons text="News" />
         <AIButtons
           text="Stay Updated"
-          styles="bg-white text-black rounded-xl p-2 text-lg hover:bg-black hover:text-white hover:bg-opacity-60"
+          styles="bg-white text-black rounded-xl lg:p-2 text-lg hover:bg-black hover:text-white hover:bg-opacity-60"
         />
       </section>
     </header>
