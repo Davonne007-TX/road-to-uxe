@@ -17,6 +17,7 @@ export default function Shop() {
           title="Custom Design Vape Pens"
           text="In eu mi bibendum neque egestas. Nunc lobortis mattis aliquam faucibus. Mattis nunc sed blandit libero. Scelerisque purus semper eget duis. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer."
           buttonColor="bg-purple-600"
+          className="text-xl"
         />
       </main>
     </>

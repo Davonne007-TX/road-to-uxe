@@ -8,14 +8,14 @@ export default function Card({
   moreText,
 }) {
   return (
-    <section className="max-w-xs md:max-w-md lg:max-w-md ml-12 md:ml-20 lg:ml-40 mt-32 md:mt-40 lg:mt-48  text-white font-sans bg-black p-8 lg:p-4 bg-opacity-40">
-      <h2 className="text-xl lg:text-5xl mb-10">{title}</h2>
+    <section className="ml-12 max-w-xs md:max-w-3xl lg:max-w-2xl  mt-32 md:mt-40 lg:mt-48  text-white font-sans bg-black p-10 bg-opacity-40">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl mb-10 ">{title}</h2>
       <p className={className}>{text}</p>
       <p className={className}>{moreText}</p>
 
       <Button
         label="Learn More"
-        className="mt-10 p-4 md:text-xl lg:text-xl rounded-full"
+        className="mt-10 p-2 md:text-xl lg:text-xl rounded-full hover:scale-110"
         color={buttonColor}
       />
     </section>
