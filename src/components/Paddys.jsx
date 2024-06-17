@@ -14,8 +14,9 @@ export default function Paddys() {
       <Header title="Crafted" onClick={navigateToHome} />
       <Card
         title="Happy St. Patricks Day!"
-        text="In eu mi bibendum neque egestas. Nunc lobortis mattis aliquam faucibus. Mattis nunc sed blandit libero. Scelerisque purus semper eget duis. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer."
-        className="text-2xl"
+        text="In eu mi bibendum neque egestas. Nunc lobortis mattis aliquam faucibus. Mattis nunc sed blandit libero."
+        moreText="Scelerisque purus semper eget duis. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer."
+        className="text-2xl mt-5"
         buttonColor="bg-green-600"
       />
     </main>

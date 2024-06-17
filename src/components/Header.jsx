@@ -10,13 +10,13 @@ export default function Header({ title, onClick }) {
     <>
       <header className="flex flex-row justify-between mt-10">
         <h1
-          className="text-white text-7xl font-serif cursor-pointer ml-10"
+          className="text-white text-5xl md:text-5xl lg:text-7xl font-serif cursor-pointer ml-12"
           onClick={onClick}
         >
           {title}
         </h1>
         <nav>
-          <ul className="flex flex-row gap-10 text-white mt-5 mr-20 text-xl lg:text-2xl font-serif">
+          <ul className="hidden md:flex lg:flex flex-row gap-10 text-white mt-5 mr-20 text-xl lg:text-2xl font-serif">
             {myLinks.map((link, index) => (
               <li key={index}>{link.name}</li>
             ))}
