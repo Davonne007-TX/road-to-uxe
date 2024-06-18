@@ -17,8 +17,8 @@ export default function Easter({ src, alt, title, text, moreText }) {
               <p>{moreText}</p>
 
               <Button
-                label="See Event"
-                className="bg-white w-40 mt-4 rounded-full font-serif text-2xl hover:text-white"
+                label="Learn More"
+                className="bg-white w-40 mt-4 rounded-full font-serif text-2xl hover:scale-105"
               />
             </section>
           </section>
