@@ -29,6 +29,8 @@ export default function About() {
   );
 }
 
+//Second Image
 // Photo by <a href="https://unsplash.com/@cdc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CDC</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-inside-room-8LITuYkZRIo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
+//Third Image
 // Photo by <a href="https://unsplash.com/@gaberce?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabe Pierce</a> on <a href="https://unsplash.com/photos/girl-in-green-jacket-playing-with-white-and-pink-plastic-balls-on-green-grass-field-during-2w46Lv6EYT4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
