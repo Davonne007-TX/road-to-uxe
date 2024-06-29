@@ -20,10 +20,9 @@ export default function MyWork() {
     <>
       <section className="home-p mb-8 md:mb-8">
         <p>
-          Frontend Projects built in React.js and Tailwind CSS focusing on UI
-          design and user experience. While developing React and Design skills
-          along the way. I appreciate feed back and ways I can improve. Project
-          us
+          Projects built in React.js and Tailwind CSS. This is my way to gain
+          experience coding in React.js while exploring UI/UX concepts. Explore,
+          contribute, and lets code!
         </p>
       </section>
       <nav className="grid grid-cols-1 md:grid-cols-3 lg:mt-4 text-teal lg:grid-cols-3 lg:flex-row gap-6 lg:gap-8 font-serif text-xl lg:text-2xl">
