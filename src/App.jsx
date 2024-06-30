@@ -14,6 +14,7 @@ import Bunny from "./components/Easter/Bunny";
 import Cola from "./components/Soda/Cola";
 import BuildToday from "./components/Github/BuildToday";
 import Future from "./components/AI/Future";
+import Summer from "./components/Hot/Summer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/cola" element={<Cola />} />
         <Route path="/together" element={<BuildToday />} />
         <Route path="/future" element={<Future />} />
+        <Route path="/summer" element={<Summer />} />
       </Routes>
     </>
   );
