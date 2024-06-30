@@ -14,7 +14,7 @@ export default function MyWork() {
     { id: 10, text: "Restaurant", link: "/seafood" },
     { id: 11, text: "Code Together", link: "/together" },
     { id: 12, text: "AI", link: "/future" },
-    { id: 13, text: "Summer", link: "/summer" },
+    { id: 13, text: "Vacation Resort", link: "/summer" },
   ];
 
   return (

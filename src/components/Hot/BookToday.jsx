@@ -1,6 +1,7 @@
+import Button from "../Button";
+
 export default function BookToday() {
   return (
-    // <section className="">
     <section className="flex flex-col max-w-2xl md:max-w-2xl lg:max-w-4xl ml-20 mt-60">
       <h1 className=" text-white font-bold text-3xl md:text-5xl lg:text-6xl">
         Your Vacation Starts <span className="text-blue-600">Today</span>
@@ -16,7 +17,14 @@ export default function BookToday() {
         Habitant morbi tristique senectus et netus et malesuada fames ac. Odio
         facilisis mauris sit amet.
       </p>
-      {/* </section> */}
+
+      <section className="flex gap-14">
+        <Button
+          label="Book Today"
+          color="bg-blue-600"
+          className=" text-white rounded-full p-2 mt-4 font-bold w-40"
+        />
+      </section>
     </section>
   );
 }
