@@ -11,7 +11,7 @@ export default function Shop() {
 
   return (
     <>
-      <main className="h-screen flex flex-col bg-cover bg-[url(/images/smoke.jpg)]">
+      <main className="min-h-screen flex flex-col bg-cover bg-[url(/images/smoke.jpg)]">
         <Header title="Purple Shop" onClick={navigateToHome} />
         <Card
           title="Custom Design Vape Pens"
