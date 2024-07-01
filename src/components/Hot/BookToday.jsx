@@ -4,7 +4,7 @@ export default function BookToday() {
   return (
     <>
       <section className="flex flex-col max-w-2xl md:max-w-2xl lg:max-w-4xl mt-20 md:mt-40 lg:mt-40">
-        <h2 className=" text-white font-bold text-3xl md:text-5xl lg:text-5xl">
+        <h2 className=" text-white font-bold text-3xl md:text-4xl lg:text-5xl">
           Your Vacation Starts <span className="text-blue-700">Today</span>
         </h2>
         <p className="vacation-styles">
