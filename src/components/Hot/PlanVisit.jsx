@@ -7,13 +7,13 @@ export default function PlanVisit() {
       <MyCalender />
       <Button
         label="Book Today"
-        color="bg-blue-600"
-        className="text-white rounded-full mt-8 md:mt-40 lg:mt-40 font-bold w-40 h-10 ml-10 p-2 "
+        color="bg-blue-700"
+        className="resort-button"
       />
       <Button
         label="Plan Visit"
-        color="bg-blue-600"
-        className="text-white rounded-full mt-8 md:mt-40 lg;mt-40 font-bold w-40 h-10 ml-10 "
+        color="bg-blue-700"
+        className="resort-button"
       />
     </section>
   );

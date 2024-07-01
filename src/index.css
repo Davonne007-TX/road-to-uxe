@@ -53,3 +53,7 @@
 .vacation-styles {
   @apply text-white ml-2 text-2xl mt-4;
 }
+
+.resort-button {
+  @apply text-white rounded-full mt-8 md:mt-40 lg:mt-40 font-bold w-40 h-10 ml-10 p-2;
+}
