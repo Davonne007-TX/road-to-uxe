@@ -4,7 +4,7 @@ import Card from "../240/Card";
 export default function BlackPanther() {
   return (
     <>
-      <main className="flex flex-col bg-cover min-h-screen bg-[url('./images/black.jpg')] ">
+      <main className="flex flex-col bg-cover min-h-screen bg-[url('/images/black.jpg')] ">
         <TopHeader />
         <section className="flex-time lg:ml-auto">
           <Card />

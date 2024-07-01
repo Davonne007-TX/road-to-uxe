@@ -3,7 +3,7 @@ import Button from "../Button";
 export default function Chasing() {
   return (
     <>
-      <main className="flex flex-col justify-center items-center bg-[url('./images/tornado.jpg')] bg-cover h-screen ">
+      <main className="flex flex-col justify-center items-center bg-[url('/images/tornado.jpg')] bg-cover h-screen ">
         <section className="flex flex-col justify-center items-center text-white max-w-xl md:max-w-3xl lg:max-w-4xl">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-center ">
             Devin's Chasing
