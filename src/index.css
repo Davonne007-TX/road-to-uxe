@@ -48,3 +48,8 @@
 .ai-buttons {
   @apply bg-white text-black text-xl md:text-2xl lg:text-2xl rounded-full  font-ber w-40 hover:scale-105;
 }
+
+/* Vacation Resort */
+.vacation-styles {
+  @apply text-white ml-2 text-2xl mt-4;
+}
