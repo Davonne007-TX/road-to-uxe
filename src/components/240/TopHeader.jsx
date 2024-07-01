@@ -15,14 +15,14 @@ export default function TopHeader() {
 
   return (
     <>
-      <header className="text-white p-4 mt-8 flex flex-row justify-between items-center font-bold font-sans">
+      <header className="text-gray-400 p-4 mt-8 flex flex-row justify-between items-center font-bold font-sans">
         <h1
-          className="text-5xl text-red-600 font-rak cursor-pointer"
+          className="text-5xl font-rak cursor-pointer text-gray-400"
           onClick={goToHome}
         >
           Black Panther Lux.
         </h1>
-        <ul className="text-white hidden lg:flex lg:flex-row gap-6 text-2xl mt-4">
+        <ul className=" hidden lg:flex lg:flex-row gap-6 text-2xl mt-4">
           {links.map((link, index) => (
             <li key={index} className="hover">
               {link.name}

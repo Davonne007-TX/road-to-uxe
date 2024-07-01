@@ -12,7 +12,7 @@ export default function Card() {
         tellus molestie nunc. Tristique senectus et netus et malesuada fames ac.
       </p>
 
-      <button className="rounded-full bg-red-600 p-2 hover:text-black max-w-xs mt-5 text-2xl">
+      <button className="rounded-full bg-gray-400 p-2 hover:text-black max-w-xs mt-5 text-2xl">
         Shop Today
       </button>
     </section>

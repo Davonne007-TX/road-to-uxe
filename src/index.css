@@ -22,7 +22,7 @@
 }
 
 .hover {
-  @apply hover:text-red-700 cursor-pointer text-white;
+  @apply hover:underline cursor-pointer;
 }
 
 .input-color {
