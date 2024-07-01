@@ -1,4 +1,5 @@
 import Button from "../Button";
+import MyCalender from "../MyCalender";
 
 export default function BookToday() {
   return (
@@ -17,6 +18,7 @@ export default function BookToday() {
         Habitant morbi tristique senectus et netus et malesuada fames ac. Odio
         facilisis mauris sit amet.
       </p>
+      <MyCalender />
 
       <section className="flex gap-14">
         <Button
