@@ -10,7 +10,7 @@ export default function Paddys() {
   };
 
   return (
-    <main className="h-screen flex flex-col bg-cover bg-[url(/images/beer.jpg)]">
+    <main className="min-h-screen flex flex-col bg-cover bg-[url(/images/beer.jpg)]">
       <Header title="Crafted" onClick={navigateToHome} />
       <Card
         title="Happy St. Patricks Day!"
