@@ -12,7 +12,7 @@ export default function WhichOne() {
             src="/images/mcBuilding.jpg"
             className="max-w-xs md:max-w-md lg:max-w-3xl"
             alt="McDonalds Building, Photo by Shahbaz Ali on Unsplash"
-          ></Image>
+          />
           <Image
             src="/images/wendysBuilding.jpg"
             className="max-w-xs md:max-w-md lg:max-w-3xl"
