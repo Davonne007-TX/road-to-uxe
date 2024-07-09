@@ -91,7 +91,7 @@ export default function MickeysHeader() {
           <img
             src="/images/mickeysLogo.jpg"
             className="w-32 h-auto cursor-pointer"
-            alt="Mcdonalds Restaurant Sign, Photo by iStrfry , Marcus on Unsplash"
+            alt="Mcdonalds Restaurant Sign, Photo by iStrfry, Marcus on Unsplash"
           />
           <button
             className="lg:hidden text-3xl hover:text-red-700 z-50 mr-4 p-2"
