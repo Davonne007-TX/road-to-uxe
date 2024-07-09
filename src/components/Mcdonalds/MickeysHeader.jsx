@@ -1,11 +1,12 @@
 import { useState } from "react";
-import Languages from "./Languages";
+import TopHeader from "./TopHeader";
 
 export default function MickeysHeader() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
   const toggleNavBar = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
+    a;
   };
 
   const micksList = [
@@ -20,34 +21,36 @@ export default function MickeysHeader() {
 
   return (
     <>
-      <header className="flex-time lg:flex-row gap-8 w-full bg-gray-100 p-4 relative z-10">
-        <img
-          src="/images/mickeysLogo.jpg"
-          className="w-32 h-auto cursor-pointer"
-          alt="Mcdonalds Restaurant Sign, Photo by iStrfry , Marcus on Unsplash"
-        />
-        <button
-          className={`lg:hidden text-3xl hover:text-red-700 z-50 ${
-            isMobileNavOpen ? "fixed top-4 right-4" : "absolute top-4 right-4"
-          }`}
-          onClick={toggleNavBar}
-        >
-          ☰
-        </button>
+      <header className="flex justify-center gap-8 items-center w-full bg-gray-100 p-4 relative">
+        <section className="flex items-caenter justify-center w-full lg:w-auto">
+          <img
+            src="/images/mickeysLogo.jpg"
+            className="w-32 h-auto cursor-pointer"
+            alt="Mcdonalds Restaurant Sign, Photo by iStrfry , Marcus on Unsplash"
+          />
+          <button
+            className="lg:hidden text-3xl hover:text-red-700 z-50 mr-80 p-2  md:mr-auto"
+            onClick={toggleNavBar}
+            s
+          >
+            ☰
+          </button>
+        </section>
 
-        <section className="flex flex-col items-center gap-4">
-          <Languages />
+        <section className="flex-time gap-4">
+          <TopHeader />
+
           <ul
-            className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
+            className={`lg:flex gap-8 lg:gap-10  lg:mt-0 ${
               isMobileNavOpen
-                ? "fixed inset-0 flex flex-col justify-center items-center bg-gray-100 z-40"
+                ? "fixed inset-10 mt-20 p-4 flex flex-col mr-auto bg-gray-100 z-40"
                 : "hidden"
             } lg:flex`}
           >
             {micksList.map((micksNav, id) => (
               <li
                 key={id}
-                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer"
+                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer "
               >
                 {micksNav.navLink}
               </li>

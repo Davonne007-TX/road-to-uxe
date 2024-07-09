@@ -1,7 +1,7 @@
 export default function Languages() {
   return (
-    <section className=" hidden lg:flex gap-10 mr-96 list-none cursor-pointer">
-      <select className="rounded-2xl cursor-pointer">
+    <section className=" hidden md:mr-80 lg:mr-64 lg:flex lg:justify-center lg:items-center gap-10  list-none cursor-pointer">
+      <select className="rounded-xl cursor-pointer p-2 text-sm w-31 h-10">
         <option selected>Languages</option>
         <option>English</option>
         <option>Spanish</option>
