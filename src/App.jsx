@@ -16,6 +16,7 @@ import BuildToday from "./components/Github/BuildToday";
 import Future from "./components/AI/Future";
 import Summer from "./components/Hot/Summer";
 import MickeyDees from "./components/Mcdonalds/MickeyDees";
+import WhichOne from "./components/Which/WhichOne";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/future" element={<Future />} />
         <Route path="/summer" element={<Summer />} />
         <Route path="/mickeyDees/" element={<MickeyDees />} />
+        <Route path="/whichOne/" element={<WhichOne />} />
       </Routes>
     </>
   );

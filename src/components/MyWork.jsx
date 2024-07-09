@@ -16,6 +16,7 @@ export default function MyWork() {
     { id: 12, text: "AI", link: "/future" },
     { id: 13, text: "Vacation Resort", link: "/summer" },
     { id: 14, text: "Mickey Dees", link: "/mickeyDees" },
+    { id: 15, text: "Which One", link: "/whichOne" },
   ];
 
   return (
