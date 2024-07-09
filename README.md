@@ -1,6 +1,8 @@
 # Road to UXE!
 
-Welcome to Road to UXE! This project is my journey focusing on deepening my skills as a Frontend Web Developer, while also expanding my knowledge of UI/UX design. I am building UI that focuses on user experience, usability, and accessibility.
+Welcome to Road to UXE! This project is my journey focusing on deepening my skill set as a Frontend Web Developer. By building projects in React.js, while also expanding my knowledge of UI/UX design, and getting more exposure to React conepts. Coding user interfaces that focuses on user experience, usability, responsiveness and accessibility.
+
+Deployed Site: https://road-to-uxe.netlify.app/
 
 ## Tech Used
 
@@ -13,11 +15,7 @@ Welcome to Road to UXE! This project is my journey focusing on deepening my skil
 ## Getting Started
 
 To get started with this project, follow these steps:
-
-Clone the repository to your local machine.
-Install the necessary dependencies using npm install.
-Start the development server with npm run dev.
-Begin exploring and contributing to the project!
+- Clone the repository
 
 ## Contributing
 
