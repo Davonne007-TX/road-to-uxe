@@ -1,3 +1,11 @@
+import MickeysHeader from "./MickeysHeader";
+
 export default function MickeyDees() {
-  return <div>MickeyDees</div>;
+  return (
+    <>
+      <main>
+        <MickeysHeader />
+      </main>
+    </>
+  );
 }
