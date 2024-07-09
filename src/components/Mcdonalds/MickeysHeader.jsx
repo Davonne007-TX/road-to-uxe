@@ -1,4 +1,14 @@
 export default function MickeysHeader() {
+  const micksList = [
+    { navLink: "Menu", id: 0 },
+    { navLink: "Mickeys App", id: 1 },
+    { navLink: "Reward Program", id: 2 },
+    { navLink: "Daily Deals", id: 3 },
+    { navLink: "Mick Delivery", id: 4 },
+    { navLink: "Locations", id: 5 },
+    { navLink: "Our Mission", id: 6 },
+  ];
+
   return (
     <>
       <header className="flex flex-row justify-center items-center gap-10 mt-10 font-thin cursor-pointer">
@@ -20,13 +30,14 @@ export default function MickeysHeader() {
           </section>
 
           <ul className="flex gap-10 mt-6">
-            <li className="bold-this">Menu</li>
-            <li className="bold-this">Mickey's App</li>
-            <li className="bold-this">Reward Program</li>
-            <li className="bold-this">Daily Deals</li>
-            <li className="bold-this">Mick Delivery</li>
-            <li className="bold-this">Locations</li>
-            <li className="bold-this">Our Mission</li>
+            {micksList.map((micksNav, id) => (
+              <li
+                key={id}
+                className="hover:font-bold hover:border-b-2 hover:border-red-700"
+              >
+                {micksNav.navLink}
+              </li>
+            ))}
           </ul>
         </section>
         <hr />
