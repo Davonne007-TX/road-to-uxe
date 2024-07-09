@@ -15,6 +15,7 @@ import Cola from "./components/Soda/Cola";
 import BuildToday from "./components/Github/BuildToday";
 import Future from "./components/AI/Future";
 import Summer from "./components/Hot/Summer";
+import MickeyDees from "./components/Mcdonalds/MickeyDees";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/together" element={<BuildToday />} />
         <Route path="/future" element={<Future />} />
         <Route path="/summer" element={<Summer />} />
+        <Route path="/mickeyDees/" element={<MickeyDees />} />
       </Routes>
     </>
   );
