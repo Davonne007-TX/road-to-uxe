@@ -1,6 +1,6 @@
 # Road to UXE!
 
-Welcome to Road to UXE! This project is my journey focusing on deepening my skill set as a Frontend Web Developer. By building projects in React.js, while also expanding my knowledge of UI/UX design, and getting more exposure to React conepts. Coding user interfaces that focuses on user experience, usability, responsiveness and accessibility.
+Welcome to Road to UXE! This project is my journey focusing on deepening my skill set as a Frontend Web Developer. By building projects in React.js, while also expanding my knowledge of UI/UX design, and getting more exposure to React concepts. Coding user interfaces that focuses on user experience, usability, responsiveness and accessibility.
 
 Deployed Site: https://road-to-uxe.netlify.app/
 
