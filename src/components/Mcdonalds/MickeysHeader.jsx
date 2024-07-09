@@ -8,6 +8,10 @@ export default function MickeysHeader() {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
 
+  const closeNav = () => {
+    setIsMobileNavOpen(!isMobileNavOpen);
+  };
+
   const micksList = [
     { navLink: "Menu", id: 0 },
     { navLink: "Mickeys App", id: 1 },
@@ -49,6 +53,7 @@ export default function MickeysHeader() {
               <li
                 key={id}
                 className="hover:font-bold hover:border-b-2 hover:border-red-700 text-xl p-4"
+                onClick={closeNav}
               >
                 {micksNav.navLink}
               </li>
