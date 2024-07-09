@@ -120,7 +120,7 @@ export default function MickeysHeader() {
             ))}
             <Button
               label="Order Now"
-              color="bg-yellow-300 md:hidden lg:hidden rounded-xl px-4 py-2 text-white"
+              color="bg-yellow-300 md:hidden lg:hidden rounded-xl px-4 py-2 text-black"
             />
           </ul>
         </section>
