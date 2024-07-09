@@ -8,10 +8,6 @@ export default function MickeysHeader() {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
 
-  const closeNav = () => {
-    setIsMobileNavOpen(!isMobileNavOpen);
-  };
-
   const micksList = [
     { navLink: "Menu", id: 0 },
     { navLink: "Mickeys App", id: 1 },
@@ -24,11 +20,11 @@ export default function MickeysHeader() {
 
   return (
     <>
-      <header className="flex justify-between items-center p-4 bg-gray-100 relative z-10">
+      <header className="flex-time lg:flex-row gap-8 w-full bg-gray-100 p-4 relative z-10">
         <img
-          src="/images/mickeyLogo.jpg"
-          className="w-32 h-auto"
-          alt="Mickey's Logo"
+          src="/images/mickeysLogo.jpg"
+          className="w-32 h-auto cursor-pointer"
+          alt="Mcdonalds Restaurant Sign, Photo by iStrfry , Marcus on Unsplash"
         />
         <button
           className={`lg:hidden text-3xl hover:text-red-700 z-50 ${
@@ -39,11 +35,10 @@ export default function MickeysHeader() {
           ☰
         </button>
 
-        <section className="flex-col mt-4">
+        <section className="flex flex-col items-center gap-4">
           <Languages />
-
           <ul
-            className={`lg:flex gap-8 lg:gap-10 mt-4 lg:mt-0 ${
+            className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
               isMobileNavOpen
                 ? "fixed inset-0 flex flex-col justify-center items-center bg-gray-100 z-40"
                 : "hidden"
@@ -52,8 +47,7 @@ export default function MickeysHeader() {
             {micksList.map((micksNav, id) => (
               <li
                 key={id}
-                className="hover:font-bold hover:border-b-2 hover:border-red-700 text-xl p-4"
-                onClick={closeNav}
+                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer"
               >
                 {micksNav.navLink}
               </li>
@@ -64,3 +58,4 @@ export default function MickeysHeader() {
     </>
   );
 }
+// <a target="_blank" href="https://icons8.com/icon/38275/medium-old">Medium Old</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
