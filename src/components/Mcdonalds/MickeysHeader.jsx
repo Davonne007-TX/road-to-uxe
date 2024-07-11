@@ -38,7 +38,7 @@ export default function MickeysHeader() {
 
         <section className="flex-time gap-8">
           <TopHeader />
-          <ul
+          <nav
             className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
               isMobileNavOpen
                 ? "fixed inset-10 mt-20 p-4 flex flex-col mr-auto bg-gray-100 z-40"
@@ -57,7 +57,7 @@ export default function MickeysHeader() {
               label="Order Now"
               color="bg-yellow-300 md:hidden lg:hidden rounded-xl px-4 py-2 text-black"
             />
-          </ul>
+          </nav>
         </section>
       </header>
     </>
