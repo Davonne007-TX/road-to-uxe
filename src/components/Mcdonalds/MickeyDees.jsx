@@ -5,6 +5,7 @@ export default function MickeyDees() {
     <>
       <main>
         <MickeysHeader />
+        <h2>Micky-E-Dees</h2>
       </main>
     </>
   );
