@@ -3,7 +3,7 @@ import Button from "../Button"
 const burger = {
     image: "./images/burgerWithFries.jpg",
     deal: "Upgrade Your Burger, add some secret sauce",
-    description: "Maecenas suscipit eros sit amet eros aliquam tincidunt. Sed a semper arcu. Quisque scelerisque tempus ligula. Duis vitae quam at tortor venenatis blandit id vel lectus. Aenean sit amet pharetra libero, volutpat commodo lacus",
+    description: "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
 };
 
 export default function TopDeals() {
@@ -19,7 +19,8 @@ export default function TopDeals() {
             <section className="flex flex-col gap-4">
                 <h2 className="font-bold text-xl">{burger.deal}</h2>
                 <p>{burger.description}</p>
-                <Button label="Order in our App" className="bg-yellow-300 rounded-lg p-2 font-bold" />
+                <p>{burger.description}</p>
+                <Button label="Order in our App" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
             </section>
         </section>
     </main>
