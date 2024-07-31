@@ -7,7 +7,7 @@ export default function TopHeader() {
       <Languages />
       <Button
         label="Order Now"
-        color=" hidden md:block bg-yellow-300 rounded-xl w-28 h-8 mt-4"
+        color="bg-yellow-300 rounded-lg w-28 h-8 mt-4"
       />
     </section>
   );

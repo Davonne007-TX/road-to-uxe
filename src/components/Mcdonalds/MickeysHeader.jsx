@@ -61,10 +61,10 @@ export default function MickeysHeader() {
                 {micksNav.navLink}
               </li>
             ))}
-            <Button
+            {/* <Button
               label="Order Now"
-              color="bg-yellow-300 md:hidden lg:hidden rounded-xl px-4 py-2 text-black"
-            />
+              color="bg-yellow-300 rounded-xl px-4 py-2 text-black"
+            /> */}
           </nav>
         </section>
       </header>
