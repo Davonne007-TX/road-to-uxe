@@ -1,6 +1,5 @@
 import { useState } from "react";
 import TopHeader from "./TopHeader";
-import Button from "../Button";
 
 export default function MickeysHeader() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -61,10 +60,6 @@ export default function MickeysHeader() {
                 {micksNav.navLink}
               </li>
             ))}
-            {/* <Button
-              label="Order Now"
-              color="bg-yellow-300 rounded-xl px-4 py-2 text-black"
-            /> */}
           </nav>
         </section>
       </header>

@@ -1,5 +1,6 @@
 import MickeysHeader from "./MickeysHeader";
 import TopDeals from "./TopDeals";
+import Footer from "./Footer";
 
 export default function MickeyDees() {
   return (
@@ -7,7 +8,9 @@ export default function MickeyDees() {
       <main>
         <MickeysHeader />
         <TopDeals />
+        <Footer />
       </main>
     </>
   );
 }
+
