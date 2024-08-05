@@ -19,47 +19,121 @@ const delivery = {
     description: "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
 };
 
+const chicken = {
+    image: "./images/doubleChicken.jpg",
+    deal: "Unlimited Fries with Purchase of a Double Chicken",
+    description: "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+}
+
+const mealDeal = {
+    image: "./images/mealDeal.jpg",
+    deal: "$3 Meal Deal with Burger, Nuggets, Potato Wedges or Fries, and Drink",
+    description: "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+}
+
+
+const late = {
+    image: "./images/late.jpg",
+    alt: "Photo by Michael Förtsch on Unsplash",
+    deal: "Open 24hrs and All Day Breakfast",
+    description: "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+}
 export default function TopDeals() {
       
   return (
     <main className="flex-time gap-10 ">
-        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-5xl">
-            <img 
-            src={burger.image} 
-            className="max-w-am md:max-w-3xl lg:max-w-md"
-           alt="Burger With Fries, Photo by Armando Ascorve Morales on Unsplash"/>
-            
-            <section className="flex flex-col gap-4">
-                <h2 className="font-bold text-xl">{burger.deal}</h2>
-                <p>{burger.description}</p>
-                <p>{burger.description}</p>
-                <Button label="Order in our App" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
-            </section>  
-
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
+                <img
+                src={burger.image}
+                className="max-w-am md:max-w-3xl lg:max-w-md"
+                           alt="Burger With Fries, Photo by Armando Ascorve Morales on Unsplash"/>
+                
+                <section className="flex flex-col gap-4">
+                    <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{burger.deal}</h2>
+                    <p>{burger.description}</p>
+                    <p>{burger.description}</p>
+                    <Button label="Order in our App" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
+                </section>
         </section>
 
-        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-5xl">
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
             <img 
             src={nuggets.image} 
             className="max-w-am md:max-w-3xl lg:max-w-md"
            alt="Burger With Fries, Photo by Armando Ascorve Morales on Unsplash"/>
             
             <section className="flex flex-col gap-4">
-                <h2 className="font-bold text-xl">{nuggets.deal}</h2>
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{nuggets.deal}</h2>
                 <p>{nuggets.description}</p>
                 <p>{nuggets.description}</p>
                 <Button label="See deal in our App" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
             </section> 
         </section>
 
-        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-5xl">
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
             <img 
             src={delivery.image} 
             className="max-w-am md:max-w-3xl lg:max-w-md"
            alt="Mcdonalds McDelivery Bag, Photo By Erik Mclean on Unsplash"/>
             
             <section className="flex flex-col gap-4">
-                <h2 className="font-bold text-xl">{delivery.deal}</h2>
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{delivery.deal}</h2>
+                <p>{delivery.description}</p>
+                <p>{delivery.description}</p>
+                <Button label="Get Points for MickDeliveries" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
+            </section> 
+        </section>
+
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
+            <img 
+            src={chicken.image} 
+            className="max-w-am md:max-w-3xl lg:max-w-md"
+           alt="Mcdonalds McDelivery Bag, Photo By Erik Mclean on Unsplash"/>
+            
+            <section className="flex flex-col gap-4">
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{chicken.deal}</h2>
+                <p>{chicken.description}</p>
+                <p>{chicken.description}</p>
+                <Button label="Get Points for MickDeliveries" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
+            </section> 
+        </section>
+
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
+            <img 
+            src={mealDeal.image} 
+            className="max-w-am md:max-w-3xl lg:max-w-md"
+           alt="Mcdonalds McDelivery Bag, Photo By Erik Mclean on Unsplash"/>
+            
+            <section className="flex flex-col gap-4">
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{mealDeal.deal}</h2>
+                <p>{mealDeal.description}</p>
+                <p>{mealDeal.description}</p>
+                <Button label="Get Points for MickDeliveries" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
+            </section> 
+        </section>
+
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
+            <img 
+            src={late.image} 
+            className="max-w-am md:max-w-3xl lg:max-w-md"
+           alt="Mcdonalds McDelivery Bag, Photo By Erik Mclean on Unsplash"/>
+            
+            <section className="flex flex-col gap-4">
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{late.deal}</h2>
+                <p>{late.description}</p>
+                <p>{late.description}</p>
+                <Button label="Get Points for MickDeliveries" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
+            </section> 
+        </section>
+
+        <section className="flex flex-col lg:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
+            <img 
+            src={delivery.image} 
+            className="max-w-am md:max-w-3xl lg:max-w-md"
+           alt="Mcdonalds McDelivery Bag, Photo By Erik Mclean on Unsplash"/>
+            
+            <section className="flex flex-col gap-4">
+                <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-10">{delivery.deal}</h2>
                 <p>{delivery.description}</p>
                 <p>{delivery.description}</p>
                 <Button label="Get Points for MickDeliveries" className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10" />
