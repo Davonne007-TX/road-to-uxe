@@ -12,7 +12,7 @@ export default function Bunny() {
         <SecondHeading />
         <Hero />
         <About />
-        <section className="flex flex-col mb-10">
+        <section className="flex flex-col gap-4 mt-20 mb-10">
           <Easter
             title="Easter Egg Hunt Friday March 29th"
             src="/images/hunt.jpg"
@@ -24,8 +24,8 @@ export default function Bunny() {
             title="CodeWiz, An After School Program To Learn To Code"
             src="/images/kidsCode.jpg"
             alt="Children Coding on Desktop Computers, Photo By Gustavo Fring"
-            text="Consectetur purus ut faucibus pulvinar elementum integer enim. Pellentesque dignissim enim sit amet venenatis urna cursus. Fermentum et sollicitudin ac orci phasellus. Sem et tortor consequat id porta nibh venenatis cras. Id interdum velit laoreet id donec ultrices."
-            moreText="Sollicitudin tempor id eu nisl. Aenean et tortor at risus viverra adipiscing. Vivamus at augue eget arcu dictum varius duis at consectetur. Sit amet est placerat in egestas erat imperdiet sed euismod. Sollicitudin tempor id eu nisl. Aenean et tortor at risus viverra adipiscing."
+            text="Consectetur purus ut faucibus pulvinar elementum integer enim. Pellentesque dignissim enim sit amet venenatis urna cursus. Fermentum et sollicitudin ac orci phasellus. Sem et tortor consequat id."
+            moreText="Sollicitudin tempor id eu nisl. Aenean et tortor at risus viverra adipiscing. Vivamus at augue eget arcu dictum varius duis at consectetur. Sit amet est placerat in egestas erat imperdiet sed euismod."
           />
         </section>
       </main>
