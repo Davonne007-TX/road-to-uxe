@@ -42,7 +42,7 @@ export default function MickeysHeader() {
           </button>
         </section>
 
-        <section className="flex-time gap-8">
+        <section className="flex-time">
           <TopHeader />
           <nav
             className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
