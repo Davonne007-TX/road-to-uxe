@@ -5,7 +5,7 @@ export default function WhichOne() {
     <>
       <main className="flex-time gap-10 bg-orange-200 min-h-screen">
         <h1 className="font-bold text-2xl md:text-5xl lg:text-5xl font-ber">
-          Which One Do You Like Better?
+          Which place do you like better?
         </h1>
         <section className="flex-time md:flex-row lg:flex-row gap-8 mt-20 ">
           <Image
