@@ -7,8 +7,8 @@ export default function EasterHeading() {
   ];
   return (
     <>
-      <header className="bg-pink-200 p-2">
-        <section className="flex flex-row justify-center items-center md:justify-between lg:justify-between mt-4 font-serif">
+      <header className="w-full bg-pink-200">
+        <section className="flex flex-row justify-center items-center p-4 md:justify-between lg:justify-between font-serif">
           <h1 className="text-3xl lg:text-5xl ml-4 cursor-pointer">
             Lincoln Elementary
           </h1>
