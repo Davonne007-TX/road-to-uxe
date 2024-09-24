@@ -3,7 +3,7 @@ import Button from "../Button";
 export default function Easter({ src, alt, title, text, moreText }) {
   return (
     <>
-      <main className="flex flex-col justify-center items-center mt-10 text-black ">
+      <main className="mt-10 text-black ">
         <article className="w-full max-w-md md:max-w-2xl lg:max-w-6xl rounded-2xl p-8 mb-4">
           <section className="flex flex-col lg:flex-row gap-4 font-sans">
             <img

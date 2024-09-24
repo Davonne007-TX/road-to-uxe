@@ -2,13 +2,14 @@ import EasterHeading from "./EasterHeading";
 import Hero from "./Hero";
 import About from "./About";
 import Easter from "./Easter";
+import SecondHeading from "./SecondHeading";
 
 export default function Bunny() {
   return (
     <>
       <main className="flex-time">
         <EasterHeading />
-
+        <SecondHeading />
         <Hero />
         <About />
         <section className="flex flex-col gap-4 md:mt-4 lg:mt-20 mb-10">
