@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TopHeader from "./TopHeader";
+import Button from "../Button";
 
 export default function MickeysHeader() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -52,14 +53,22 @@ export default function MickeysHeader() {
             } lg:flex`}
           >
             {micksList.map((micksNav, id) => (
-              <li
-                key={id}
-                onClick={closeNav}
-                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer list-none"
-              >
-                {micksNav.navLink}
-              </li>
+              <>
+                <li
+                  key={id}
+                  onClick={closeNav}
+                  className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer list-none"
+                >
+                  {micksNav.navLink}
+                </li>
+              </>
             ))}
+
+            <Button
+              label="Order Now"
+              className="lg:hidden bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10"
+              onClick={closeNav}
+            />
           </nav>
         </section>
       </header>
