@@ -9,7 +9,7 @@ export default function Bunny() {
     <>
       <main className="flex-time">
         <EasterHeading />
-        <SecondHeading />
+
         <Hero />
         <About />
         <section className="flex flex-col gap-4 md:mt-4 lg:mt-20 mb-10">
