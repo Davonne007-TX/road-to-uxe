@@ -8,12 +8,12 @@ export default function Top() {
         <Image
           src="/images/apps.png"
           alt="Apps, Apps icon by Icons8"
-          className="w-10"
+          className="w-10 hidden md:flex"
         />
         <Image
           src="/images/flask.png"
           alt="Flask, Flask icon by Icons8"
-          className="w-10"
+          className="w-10 hidden md:flex"
         />
         <li className="hover:underline">G-mail</li>
         <li className="hover:underline">Photos</li>
