@@ -17,13 +17,13 @@ export default function MickeysHeader() {
   };
 
   const micksList = [
-    { navLink: "Menu", id: 0 },
-    { navLink: "Mickeys App", id: 1 },
-    { navLink: "Reward Program", id: 2 },
-    { navLink: "Daily Deals", id: 3 },
-    { navLink: "Mick Delivery", id: 4 },
-    { navLink: "Locations", id: 5 },
-    { navLink: "Our Mission", id: 6 },
+    { navLink: "Menu", id: 1 },
+    { navLink: "Mickeys App", id: 2 },
+    { navLink: "Reward Program", id: 3 },
+    { navLink: "Daily Deals", id: 4 },
+    { navLink: "Mick Delivery", id: 5 },
+    { navLink: "Locations", id: 6 },
+    { navLink: "Our Mission", id: 7 },
   ];
 
   return (
@@ -52,16 +52,14 @@ export default function MickeysHeader() {
                 : "hidden"
             } lg:flex`}
           >
-            {micksList.map((micksNav, id) => (
-              <>
-                <li
-                  key={id}
-                  onClick={closeNav}
-                  className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer list-none"
-                >
-                  {micksNav.navLink}
-                </li>
-              </>
+            {micksList.map((micksNav) => (
+              <li
+                key={micksNav.id}
+                onClick={closeNav}
+                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer list-none"
+              >
+                {micksNav.navLink}
+              </li>
             ))}
 
             <Button
