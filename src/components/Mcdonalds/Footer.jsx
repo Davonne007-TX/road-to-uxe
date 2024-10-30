@@ -4,12 +4,12 @@ export default function Footer() {
   return (
     <>
       <section className="mt-20 m-0 bg-black p-4">
-        <section className="max-w-6xl ml-auto mr-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        <section className="max-w-5xl ml-auto mr-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           {footerSections.map((section, index) => (
-            <section key={index}>
-              <h3 className="font-bold text-yellow-400 ">{section.title}</h3>
+            <section key={index} className="flex flex-col gap-2">
+              <h3 className="font-bold text-yellow-400">{section.title}</h3>
 
-              <ul className=" gap-2 text-white">
+              <ul className="text-white">
                 {section.links.map((link, linkIndex) => (
                   <>
                     <a href="" className="hover:underline">
