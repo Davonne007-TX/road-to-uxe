@@ -5,7 +5,7 @@
 /*Home Component*/
 
 .home-p {
-  @apply lg:mt-5 text-teal text-xl max-w-xs md:max-w-4xl lg:max-w-5xl font-serif;
+  @apply lg:mt-5 text-xl max-w-xs md:max-w-4xl lg:max-w-5xl font-serif;
 }
 
 /**/

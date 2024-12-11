@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Welcome from "./Welcome";
 
 export default function MyWork() {
   const myWork = [
@@ -20,19 +21,10 @@ export default function MyWork() {
 
   return (
     <>
-      <section className="home-p mb-8 md:mb-8">
-        <p>
-          My year in a nutshell. This is my body of work for 2024. It has been a
-          learning experience with React.js and Tailwind CSS with all the bugs
-          and styling issues I ran into. There is definitely more to learn when
-          it comes to design and clean code. There are many things I do not know
-          about React.js but I do know how to get started.
-        </p>
-      </section>
-      ß
-      <nav className="grid grid-cols-1 md:grid-cols-3 lg:mt-4 text-teal lg:grid-cols-3 lg:flex-row gap-6 lg:gap-8 font-serif text-xl lg:text-2xl">
+      <Welcome />
+      <nav className="grid grid-cols-1 md:grid-cols-3  text-black lg:grid-cols-3 lg:flex-row gap-4 lg:gap-8 font-serif text-xl lg:text-2xl">
         {myWork.map((work, id) => (
-          <li key={id} className="text-teal list-none">
+          <li key={id} className="list-none">
             <Link to={work.link}>{work.text}</Link>
           </li>
         ))}

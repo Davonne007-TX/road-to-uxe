@@ -23,6 +23,7 @@ export default {
         orbitron: "'Orbitron', sans-serif",
         ram: "'Rampart One', sans-serif",
         ber: "'Berkshire Swash', serif",
+        caption: "'PT Serif Caption, serif'",
       },
     },
   },
