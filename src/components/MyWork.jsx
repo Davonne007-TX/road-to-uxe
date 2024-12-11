@@ -10,7 +10,7 @@ export default function MyWork() {
     { id: 5, text: "Peace and Love", link: "/like" },
     { id: 6, text: "Storm Chasers", link: "/chasing" },
     { id: 7, text: "Journey Search", link: "/search" },
-    { id: 8, text: "Easter", link: "/easter" },
+    // { id: 8, text: "Easter", link: "/easter" },
     { id: 9, text: "Coca Cola", link: "/cola" },
     { id: 10, text: "Restaurant", link: "/seafood" },
     { id: 11, text: "Code Together", link: "/together" },
