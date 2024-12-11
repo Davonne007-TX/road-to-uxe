@@ -46,9 +46,12 @@
 
 /* AI buttons */
 .ai-buttons {
-  @apply bg-white text-black text-xl md:text-2xl lg:text-2xl rounded-full  font-ber w-40 hover:scale-105;
+  @apply bg-white text-black text-lg md:text-xl rounded-full font-ber w-40 hover:scale-105 p-1;
 }
 
+.news-bts {
+  @apply bg-white text-black rounded-xl lg:p-2 text-lg hover:bg-black hover:text-white hover:bg-opacity-60;
+}
 /* Vacation Resort */
 .vacation-styles {
   @apply text-white ml-2 text-2xl mt-4;
