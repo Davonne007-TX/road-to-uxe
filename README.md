@@ -12,11 +12,15 @@ Deployed Site: https://road-to-uxe.netlify.app/
 
 - React Router: A library for declaratively managing navigation and routing in React applications, allowing for the creation of single-page applications with multiple views.
 
+## Contributing
+
+Contributions/feedback to this project are welcome! If you have ideas for improvements, bug fixes, new features, please open an issue or submit a pull request. There is also a project board under Projects within the repository.
+
 ## Getting Started
 
 To get started with this project, follow these steps:
+
 - Clone the repository
-
-## Contributing
-
-Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request. There is also a project board under Projects within the repository.
+- Create your own branch
+- Make changes, push to Github
+- Submit a pull request for review
