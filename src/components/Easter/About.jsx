@@ -6,7 +6,7 @@ export default function About() {
         className="md:max-w-2xl lg:max-w-xl lg:mr-8 mb-4 lg:mb-0"
         alt="Teacher reading a book to young students, Photo By CDC on Unsplash"
       />
-      <section className="mt-4">
+      <section className="mt-4 flex-time">
         <h2 className="text-3xl font-semibold mb-4">
           Welcome to Lincoln Elementary!
         </h2>
