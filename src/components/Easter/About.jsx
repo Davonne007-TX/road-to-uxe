@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col lg:flex-row justify-center items-center -mt-10 mb-10 m-0 max-w-md md:max-w-xl lg:max-w-6xl">
+    <section className="flex flex-col lg:flex-row justify-center items-center md:mt-20 mb-10 m-0 max-w-md md:max-w-xl lg:max-w-6xl">
       <img
         src="/images/reading.jpg"
         className="md:max-w-2xl lg:max-w-xl lg:mr-8 mb-4 lg:mb-0"

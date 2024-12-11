@@ -12,7 +12,7 @@ export default function Bunny() {
         <SecondHeading />
         <Hero />
         <About />
-        <section className="flex flex-col gap-4 md:mt-4 lg:mt-20 mb-10">
+        <section className="flex flex-col gap-4 md:mt-4 lg:mt-10 mb-10">
           <Easter
             title="Easter Egg Hunt Friday March 29th"
             src="/images/hunt.jpg"

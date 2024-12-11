@@ -8,7 +8,7 @@ export default function Easter({ src, alt, title, text, moreText }) {
           <section className="flex flex-col lg:flex-row gap-4 font-sans">
             <img
               src={src}
-              className="max-w-sm md:max-w-2xl lg:max-w-sm"
+              className="max-w-sm md:max-w-2xl lg:max-w-xl"
               alt={alt}
             />
             <section className="flex flex-col gap-4">
@@ -18,7 +18,7 @@ export default function Easter({ src, alt, title, text, moreText }) {
 
               <Button
                 label="Learn More"
-                className="bg-slate-600 text-white w-40 mt-4 font-serif text-md md:text-xl lg:text-2xl hover:scale-105"
+                className="bg-slate-600 text-white w-40 mt-4 font-serif text-md md:text-xl lg:text-2xl hover:scale-105 rounded-md"
               />
             </section>
           </section>
