@@ -48,15 +48,21 @@ export default function TopDeals() {
       {foodItems.map((item) => (
         <>
           <section className="flex flex-col md:flex-row gap-10 mt-20 max-w-sm md:max-w-3xl lg:max-w-6xl">
-            <img src={item.image} alt={foodItems.alt} />
-            <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">
-              {item.deal}
-            </h2>
-            <p>{item.description}</p>
-            <Button
-              label="See deal in our App"
-              className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10"
+            <img
+              src={item.image}
+              alt={foodItems.alt}
+              className="max-w-sm md:max-w-3xl lg:max-w-md"
             />
+            <section className="flex flex-col gap-4">
+              <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">
+                {item.deal}
+              </h2>
+              <p>{item.description}</p>
+              <Button
+                label="See deal in our App"
+                className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10"
+              />
+            </section>
           </section>
         </>
       ))}
