@@ -6,7 +6,7 @@ export default function Search() {
     <>
       <main className="flex flex-col justify-start items-center h-screen bg-purple-400">
         <Top />
-        <section className="relative mt-40 md:mt-60 lg:mt-40">
+        <section className="relative mt-40 md:mt-40 lg:mt-40">
           <h1 className="text-7xl md:text-9xl lg:text-9xl text-white text-center p-8">
             Journey
           </h1>

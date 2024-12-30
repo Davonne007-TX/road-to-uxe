@@ -16,7 +16,7 @@ import BuildToday from "./components/Github/BuildToday";
 import Future from "./components/AI/Future";
 import Summer from "./components/Hot/Summer";
 import MickeyDees from "./components/Mcdonalds/MickeyDees";
-import NotAlone from "./components/UFO/notAlone";
+import NotAlone from "./components/UFO/NotAlone";
 
 function App() {
   return (
