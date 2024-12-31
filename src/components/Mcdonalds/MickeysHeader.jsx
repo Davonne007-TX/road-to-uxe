@@ -10,9 +10,6 @@ export default function MickeysHeader() {
   };
 
   const closeNav = () => {
-    if (setIsMobileNavOpen === true) {
-      setIsMobileNavOpen(!isMobileNavOpen);
-    }
     setIsMobileNavOpen(false);
   };
 
@@ -48,7 +45,7 @@ export default function MickeysHeader() {
           <nav
             className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
               isMobileNavOpen
-                ? "fixed inset-10 mt-20 p-4 flex flex-col mr-auto bg-gray-100 z-40"
+                ? "fixed inset-10 mt-20 p-2 flex  flex-col mr-auto bg-gray-100"
                 : "hidden"
             } lg:flex`}
           >
@@ -56,7 +53,7 @@ export default function MickeysHeader() {
               <li
                 key={micksNav.id}
                 onClick={closeNav}
-                className="hover:border-b-2 hover:border-red-700 text-lg cursor-pointer list-none"
+                className=" text-lg cursor-pointer list-none hover:text-red-500"
               >
                 {micksNav.navLink}
               </li>
@@ -64,7 +61,7 @@ export default function MickeysHeader() {
 
             <Button
               label="Order Now"
-              className="lg:hidden bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10"
+              className="lg:hidden bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10 hover:scale-95"
               onClick={closeNav}
             />
           </nav>
@@ -73,4 +70,3 @@ export default function MickeysHeader() {
     </>
   );
 }
-// <a target="_blank" href="https://icons8.com/icon/38275/medium-old">Medium Old</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

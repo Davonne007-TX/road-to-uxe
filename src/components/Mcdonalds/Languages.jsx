@@ -1,6 +1,6 @@
 export default function Languages() {
   return (
-    <section className=" hidden md:mr-80 lg:mr-48 mt-4 lg:flex lg:justify-center lg:items-center gap-10  list-none cursor-pointer">
+    <section className=" hidden md:mr-80 lg:mr-48 mt-4 lg:flex lg:justify-center lg:items-center gap-10 list-none">
       <select className="rounded-xl cursor-pointer text-sm w-31 h-10">
         <option value="Languages">Languages</option>
         <option>English</option>
@@ -11,8 +11,8 @@ export default function Languages() {
         <option>Mandarin Chinese</option>
         <option>Japanese</option>
       </select>
-      <li>Sign Up For Emails</li>
-      <li>Start Your Career</li>
+      <li className="hover:text-red-600 cursor-pointer">Sign Up For Emails</li>
+      <li className="hover:text-red-600 cursor-pointer">Start Your Career</li>
     </section>
   );
 }
