@@ -6,18 +6,21 @@ const foodItems = [
     deal: "Upgrade Your Burger, add some secret sauce",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "See deal in our App",
   },
   {
     image: "./images/chickenNuggets.jpg",
     deal: "$4 Fry Basket, with Nuggets and a Drink",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "Upgrade Fries: Code MIC25",
   },
   {
     image: "./images/delivery.jpg",
     deal: "Free MickDelivery with $1 purchase",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "Order Now",
   },
 
   {
@@ -25,6 +28,7 @@ const foodItems = [
     deal: "Unlimited Fries with Purchase of a Double Chicken",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "Customize Double Chicken",
   },
 
   {
@@ -32,6 +36,7 @@ const foodItems = [
     deal: "$3 Meal Deal with Burger, Nuggets, Potato Wedges or Fries, and Drink",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "Get limited Deal",
   },
 
   {
@@ -40,6 +45,7 @@ const foodItems = [
     deal: "Open 24hrs and All Day Breakfast",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
+    buttonText: "Did someone say breakfast?",
   },
 ];
 export default function TopDeals() {
@@ -59,7 +65,7 @@ export default function TopDeals() {
               </h2>
               <p className="text-xl">{item.description}</p>
               <Button
-                label="See deal in our App"
+                label={item.buttonText}
                 className="bg-yellow-300 rounded-lg p-2 font-bold w-60 h-10"
               />
             </section>
