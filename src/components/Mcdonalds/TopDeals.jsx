@@ -56,7 +56,7 @@ const foodItems = [
 ];
 export default function TopDeals() {
   return (
-    <main className="flex-time md:gap-4 lg:gap-10">
+    <main className="flex-time md:gap-4 lg:gap-10 mt-8">
       {foodItems.map((item) => (
         <section
           className="flex flex-col justify-center items-center lg:flex-row gap-10 mt-10 max-w-xs md:max-w-xl lg:max-w-6xl ml-10"
@@ -68,7 +68,7 @@ export default function TopDeals() {
             className="max-w-xs md:max-w-xl lg:max-w-lg"
           />
           <section
-            className="flex flex-col gap-4 lg:gap-10  lg:mt-4"
+            className="flex flex-col gap-4 lg:gap-8 g:mt-4"
             key={item.id}
           >
             <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">
