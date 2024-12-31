@@ -1,10 +1,11 @@
 import XHeader from "./XHeader";
+import XSearch from "./XSearch";
 
 export default function XJobSearch() {
   return (
-    <section>
-      <h1>X Job Search</h1>
+    <main className="bg-black min-h-screen">
       <XHeader />
-    </section>
+      <XSearch />
+    </main>
   );
 }
