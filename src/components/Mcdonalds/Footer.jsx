@@ -22,7 +22,6 @@ export default function Footer() {
           ))}
         </section>
       </section>
-      s
     </>
   );
 }

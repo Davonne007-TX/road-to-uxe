@@ -43,9 +43,9 @@ export default function MickeysHeader() {
         <section className="flex-time">
           <TopHeader />
           <nav
-            className={`lg:flex gap-8 lg:gap-10 lg:mt-0 ${
+            className={`lg:flex gap-8 lg:gap-8 lg:mt-0 ${
               isMobileNavOpen
-                ? "fixed inset-10 mt-20 p-2 flex  flex-col mr-auto bg-gray-100"
+                ? "fixed inset-10 mt-20 p-2 flex flex-col mr-auto bg-gray-100 max-w-xs md:max-w-lg lg:max-w-sm"
                 : "hidden"
             } lg:flex`}
           >
@@ -53,7 +53,7 @@ export default function MickeysHeader() {
               <li
                 key={micksNav.id}
                 onClick={closeNav}
-                className=" text-lg cursor-pointer list-none hover:text-red-500"
+                className=" text-md cursor-pointer list-none hover:text-red-500"
               >
                 {micksNav.navLink}
               </li>

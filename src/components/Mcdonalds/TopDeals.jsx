@@ -59,15 +59,18 @@ export default function TopDeals() {
     <main className="flex-time md:gap-4 lg:gap-10">
       {foodItems.map((item) => (
         <section
-          className="flex flex-col lg:flex-row gap-10 mt-20 max-w-xs md:max-w-xl lg:max-w-6xl"
+          className="flex flex-col justify-center items-center lg:flex-row gap-10 mt-10 max-w-xs md:max-w-xl lg:max-w-6xl ml-10"
           key={item.id}
         >
           <img
             src={item.image}
             alt={item.alt}
-            className="max-w-xs md:max-w-md lg:max-w-lg"
+            className="max-w-xs md:max-w-xl lg:max-w-lg"
           />
-          <section className="flex flex-col gap-4 md:mt-10" key={item.id}>
+          <section
+            className="flex flex-col gap-4 lg:gap-10  lg:mt-4"
+            key={item.id}
+          >
             <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">
               {item.deal}
             </h2>
