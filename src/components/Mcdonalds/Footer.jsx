@@ -5,15 +5,15 @@ export default function Footer() {
     <>
       <section className="mt-20 m-0 bg-black p-4">
         <section className="max-w-5xl ml-auto mr-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-          {footerSections.map((section, index) => (
-            <section key={index} className="flex flex-col gap-2">
-              <h3 className="font-bold text-yellow-400">{section.title}</h3>
+          {footerSections.map((sections) => (
+            <section key={sections.id} className="flex flex-col gap-2">
+              <h3 className="font-bold text-yellow-400">{sections.title}</h3>
 
               <ul className="text-white">
-                {section.links.map((link, linkIndex) => (
+                {sections.links.map((link) => (
                   <>
-                    <a href="" className="hover:underline">
-                      <li key={linkIndex}>{link}</li>
+                    <a href="#" key={link.id} className="hover:underline">
+                      <li>{link}</li>
                     </a>
                   </>
                 ))}
@@ -22,6 +22,7 @@ export default function Footer() {
           ))}
         </section>
       </section>
+      s
     </>
   );
 }

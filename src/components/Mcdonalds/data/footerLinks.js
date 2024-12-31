@@ -10,7 +10,9 @@ const footerSections = [
       "Nutrition",
       "Our Goal",
     ],
+    id: 1,
   },
+
   {
     title: "Services",
     links: [
@@ -23,6 +25,7 @@ const footerSections = [
       "Video Games",
       "Mick Rewards",
     ],
+    id: 2,
   },
   {
     title: "Community",
@@ -34,6 +37,7 @@ const footerSections = [
       "Scholarship Opportunities",
       "Better Nutrition",
     ],
+    id: 3,
   },
   {
     title: "Contact Us",
@@ -44,6 +48,7 @@ const footerSections = [
       "Donations",
       "Frequently asked questions",
     ],
+    id: 4,
   },
 ];
 
