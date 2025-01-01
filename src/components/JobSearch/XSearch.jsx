@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Button from "../Button";
-import { use } from "react";
 
 export default function XSearch() {
   const [keywords, setKeywords] = useState("");
@@ -13,7 +12,7 @@ export default function XSearch() {
   return (
     <>
       <section className="flex flex-col justify-center items-center mt-28 md:mt-40 lg:mt-60 gap-10">
-        <h1 className="text-white ml-8 text-4xl md:text-5xl font-caption">
+        <h1 className="text-white text-4xl md:text-5xl font-caption">
           X2Z Job Search
         </h1>
         <div className="md:ml-24 flex flex-col justify-center center items-center lg:flex-row gap-8">
