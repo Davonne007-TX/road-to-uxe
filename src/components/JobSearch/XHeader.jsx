@@ -14,7 +14,7 @@ export default function XHeader() {
         <h1 className="text-center font-lobster md:flex">X2Z</h1>
         {listItems.map((item) => (
           <ul className="hidden lg:flex" key={item.id}>
-            <li className="text-sm hover:bg-black hover:bg-opacity-25">
+            <li className="text-sm hover:bg-pink-200 p-2 rounded-full hover:bg-opacity-25">
               {item.navLink}
               {item.emphasis && (
                 <span className="text-white bg-pink-400 p-1 rounded-xl mb-4 ml-2">
