@@ -66,3 +66,8 @@
 .bold-this {
   @apply hover:font-bold hover:border-b-2 hover:border-red-500;
 }
+
+/*X Job Search Clone */
+.x-input {
+  @apply bg-black border-2 p-4 w-96;
+}
