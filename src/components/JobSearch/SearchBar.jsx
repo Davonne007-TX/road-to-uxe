@@ -10,7 +10,7 @@ export default function SearchBar() {
         <input
           type="search"
           className="bg-black text-white rounded-full pl-8 py-2 w-full ml-2"
-          placeholder="Search Opportunities"
+          placeholder="Search Jobs"
         />
       </label>
     </>
