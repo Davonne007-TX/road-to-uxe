@@ -23,7 +23,7 @@ export default function LinkedIn() {
           Next
         </span>
         <section className="flex flex-col justify-start items-center mt-5">
-          <div className="lg:border-2 border-white p-8 max-w-sm md:max-w-lg">
+          <div className="lg:border-2 border-white p-8 mb-20 max-w-sm md:max-w-lg">
             <div className="flex gap-60">
               <TopHeader />
               <X />

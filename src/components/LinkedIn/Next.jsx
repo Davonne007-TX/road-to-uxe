@@ -9,7 +9,7 @@ export default function Next() {
   return (
     <>
       <main className="flex flex-col items-center min-h-screen bg-linkedIn">
-        <section className="lg:border-2 border-white p-8 max-w-sm md:max-w-lg mt-10">
+        <section className="lg:border-2 border-white mb-20 p-8 max-w-sm md:max-w-lg mt-10">
           <TopHeader />
           <img
             src="/images/people.jpg"

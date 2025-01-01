@@ -17,6 +17,7 @@ import Future from "./components/AI/Future";
 import Summer from "./components/Hot/Summer";
 import MickeyDees from "./components/Mcdonalds/MickeyDees";
 import NotAlone from "./components/UFO/NotAlone";
+import XJobSearch from "./components/JobSearch/XJobSearch";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/summer" element={<Summer />} />
         <Route path="/mickeyDees/" element={<MickeyDees />} />
         <Route path="/ufo" element={<NotAlone />} />
+        <Route path="/xJobSearch" element={<XJobSearch />} />
       </Routes>
     </>
   );
