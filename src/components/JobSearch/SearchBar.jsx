@@ -3,12 +3,13 @@ import { useState } from "react";
 export default function SearchBar() {
   const [inputtedSearch, setInputtedSearch] = useState("");
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     console.log("Search for:", inputtedSearch);
   };
 
   return (
-    <div className="relative w-full max-w-md">
+    <form className="relative w-full max-w-md" onSubmit={handleSubmit}>
       <label>
         <img
           src="/images/search.png"
@@ -21,13 +22,8 @@ export default function SearchBar() {
           onChange={(e) => setInputtedSearch(e.target.value)}
           className="bg-black text-white rounded-full pl-8 py-2 w-full"
           placeholder="Search Opportunities"
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              handleSubmit();
-            }
-          }}
         />
       </label>
-    </div>
+    </form>
   );
 }
