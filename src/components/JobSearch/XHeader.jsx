@@ -17,7 +17,7 @@ export default function XHeader() {
             <li className="text-sm hover:bg-pink-200 p-2 rounded-full hover:bg-opacity-25">
               {item.navLink}
               {item.emphasis && (
-                <span className="text-white bg-pink-500 p-1 rounded-xl mb-4 ml-2">
+                <span className="text-white bg-pink-400 p-1 rounded-xl mb-4 ml-2">
                   {item.emphasis}
                 </span>
               )}

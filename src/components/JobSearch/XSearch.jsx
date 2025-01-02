@@ -35,7 +35,7 @@ export default function XSearch() {
             label={"Search"}
             onClick={handleSearch}
             className={
-              "text-white bg-pink-500 hover:scale-105 p-2 rounded-full w-full md::w-96 lg:w-28 font-bold"
+              "text-white bg-pink-400 hover:scale-105 p-2 rounded-full w-full md::w-96 lg:w-28 font-bold"
             }
           />
         </div>
