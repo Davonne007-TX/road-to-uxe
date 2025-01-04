@@ -25,8 +25,8 @@ export default function MyWork() {
     <>
       <Welcome />
       <nav className="grid grid-cols-1 md:grid-cols-3  text-black lg:grid-cols-3 lg:flex-row gap-4 lg:gap-8 font-serif text-xl lg:text-2xl">
-        {myWork.map((work, id) => (
-          <li key={id} className="list-none">
+        {myWork.map((work) => (
+          <li key={work.id} className="list-none">
             <Link to={work.link}>{work.text}</Link>
           </li>
         ))}
