@@ -17,7 +17,7 @@ export default function MyWork() {
     { id: 12, text: "AI", link: "/future" },
     { id: 13, text: "Vacation Resort", link: "/summer" },
     { id: 14, text: "Mickey Dees", link: "/mickeyDees" },
-    // { id: 15, text: "UFO", link: "/ufo" },
+    { id: 15, text: "UFO", link: "/ufo" },
     { id: 15, text: "X Clone: Job Search", link: "/XJobSearch" },
   ];
 
