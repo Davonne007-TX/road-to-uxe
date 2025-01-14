@@ -47,3 +47,5 @@ function App() {
 }
 
 export default App;
+
+//need to do react lazy
