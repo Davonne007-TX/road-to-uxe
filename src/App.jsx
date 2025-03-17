@@ -45,7 +45,7 @@ function App() {
           <Route path="/together" element={<BuildToday />} />
           <Route path="/future" element={<Future />} />
           <Route path="/summer" element={<Summer />} />
-          <Route path="/mickeyDees/" element={<MickeyDees />} />
+          <Route path="/mickeyDees" element={<MickeyDees />} />
           <Route path="/ufo" element={<NotAlone />} />
           <Route path="/xJobSearch" element={<XJobSearch />} />
         </Routes>
