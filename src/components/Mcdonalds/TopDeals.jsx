@@ -3,6 +3,7 @@ import Button from "../Button";
 const foodItems = [
   {
     image: "./images/burgerWithFries.jpg",
+    alt: "",
     deal: "Upgrade Your Burger, add some secret sauce",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
@@ -11,6 +12,7 @@ const foodItems = [
   },
   {
     image: "./images/chickenNuggets.jpg",
+    alt: "",
     deal: "$4 Fry Basket, with Nuggets and a Drink",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
@@ -19,6 +21,7 @@ const foodItems = [
   },
   {
     image: "./images/delivery.jpg",
+    alt: "",
     deal: "Free MickDelivery with $1 purchase",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
@@ -28,6 +31,7 @@ const foodItems = [
 
   {
     image: "./images/doubleChicken.jpg",
+    alt: "",
     deal: "Unlimited Fries with Purchase of a Double Chicken",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
@@ -37,6 +41,7 @@ const foodItems = [
 
   {
     image: "./images/mealDeal.jpg",
+    alt: "",
     deal: "$3 Meal Deal with Burger, Nuggets, Potato Wedges or Fries, and Drink",
     description:
       "Maecenas suscipit tincidunt. Quisque ut mi suscipit mi pulvinar semper. Phasellus maximus ornare mollis. Nunc luctus ligula et loremu. Duis vitae quam att id vel lectus.",
