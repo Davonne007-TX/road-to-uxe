@@ -14,8 +14,8 @@ export default function Paddys() {
       <Header title="Crafted" onClick={navigateToHome} />
       <Card
         title="Happy St. Patricks Day!"
-        text="In eu mi bibendum neque egestas. Nunc lobortis mattis aliquam faucibus. Mattis nunc sed blandit libero."
-        moreText="Scelerisque purus semper eget duis. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer."
+        text="Here at Paddys, we believe a great pub is more than just a place to drink, it’s a place to gather."
+        moreText=" Inspired by the traditions of Ireland, we offer a cozy atmosphere, hearty laughs, and a tap list full of classics and local favorites. Whether you’re here for a quiet pint, live music, or a night with friends, you’ll always find good cheer waiting."
         className="text-2xl mt-5"
         buttonColor="bg-green-600"
       />

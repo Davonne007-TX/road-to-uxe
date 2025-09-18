@@ -15,9 +15,10 @@ export default function Shop() {
         <Header title="Purple Shop" onClick={navigateToHome} />
         <Card
           title="Custom Design Vape Pens"
-          text="In eu mi bibendum neque egestas. Nunc lobortis mattis aliquam faucibus. Mattis nunc sed blandit libero. Scelerisque purus semper eget duis. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer."
+          text="Great smoke is more than just a pastime, it’s an experience. We have fine tobacco and we offer a warm and welcoming space filled with premium cigars, hand-rolled selections, and quality accessories."
+          moreText="Whether you’re here to explore new blends, relax with a familiar favorite, or simply enjoy the craft, you’ll always find knowledge, care, and good company waiting."
           buttonColor="bg-purple-600"
-          className="text-xl"
+          className="text-xl p-2"
         />
       </main>
     </>
