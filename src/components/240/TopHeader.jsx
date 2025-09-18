@@ -15,7 +15,7 @@ export default function TopHeader() {
 
   return (
     <>
-      <header className="text-gray-400 p-4 mt-8 flex flex-row justify-between items-center font-bold font-sans">
+      <header className="text-gray-400 bg-black p-4 flex flex-row justify-between items-center font-bold font-sans">
         <h1
           className="text-5xl font-rak cursor-pointer text-gray-400"
           onClick={goToHome}
