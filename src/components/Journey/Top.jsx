@@ -15,7 +15,7 @@ export default function Top() {
           alt="Flask, Flask icon by Icons8"
           className="w-10 hidden md:flex"
         />
-        <li className="hover:underline">G-mail</li>
+        <li className="hover:underline">D-mail</li>
         <li className="hover:underline">Photos</li>
       </ul>
     </section>

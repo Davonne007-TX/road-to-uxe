@@ -5,7 +5,7 @@ export default function SignIn() {
       <div>
         or{" "}
         <span className="text-sky font-bold hover:underline cursor-pointer">
-          Join Linkedin
+          Join Linked
         </span>
       </div>
     </section>

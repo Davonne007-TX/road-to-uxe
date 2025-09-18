@@ -22,7 +22,7 @@ export default function Subscribe() {
             placeholder="Enter e-mail address"
             value={email}
             onChange={handleEmailChange}
-            className=" p-2 lg:p-4 rounded-lg w-96 lg:w-96 text-black !font-sans text-xl lg:text-2xl"
+            className=" p-2 lg:p-4 rounded-lg w-80 lg:w-96 text-black !font-sans text-xl lg:text-2xl "
           />
         </label>
 
